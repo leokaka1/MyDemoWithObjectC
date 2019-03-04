@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectionViewPractice.h
 //  DemoPractice
 //
 //  Created by Leon on 2019/3/4.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface CollectionViewPractice : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
