@@ -1,5 +1,5 @@
 //
-//  MainPage.h
+//  TestDemo.h
 //  DemoPractice
 //
 //  Created by Leon on 2019/3/4.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MainPage : BasicViewController
+@interface TestDemo : UIViewController
 
 @end
 

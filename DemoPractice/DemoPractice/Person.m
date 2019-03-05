@@ -8,6 +8,12 @@
 
 #import "Person.h"
 
+@interface Person()
+
+@property(nonatomic,strong) NSString *name;
+
+@end
+
 @implementation Person
 
 +(instancetype)shareManager{

@@ -12,63 +12,32 @@
 
 static NSString *identifier = @"cell";
 
-@interface MainPage ()<UITableViewDelegate,UITableViewDataSource>
+@interface MainPage ()
 
 @property(strong,nonatomic) UITableView  *basicTableView;
-@property(strong,nonatomic) NSArray *titleArr;
-@property(strong,nonatomic) NSArray *detailArr;
+
 
 @end
 
 @implementation MainPage
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self setDataSource];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.title = @"首页";
-    [self setDataSource];
-    [self setupUI];
-    
-    Person *person = [Person shareManager];
-    Person *person1= [Person shareManager];
-    NSLog(@"%p --- %p",person,person1);
-    
 }
 
 -(void)setDataSource{
-    _titleArr = [NSArray array];
-    _detailArr = [NSArray array];
+    self.titleArr = [NSArray array];
+    self.detailArr = [NSArray array];
     ConstDictionary *constDict = [ConstDictionary new];
-    _titleArr = [constDict getMainDictionary][@"title"];
-    _detailArr = [constDict getMainDictionary][@"detail"];
-    
-}
-
-//设置UI
--(void)setupUI{
-    
-    _basicTableView  = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, kScreenHeight, kScreenHeight)];
-    _basicTableView.delegate  = self;
-    _basicTableView.dataSource = self;
-    [self.view addSubview:_basicTableView];
-}
-
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return _titleArr.count;
-}
-
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-    
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
-    }
-    
-    cell.textLabel.text  = _titleArr[indexPath.row];
-    cell.detailTextLabel.text = _detailArr[indexPath.row];
-    
-    return cell;
+    self.titleArr = [constDict getMainDictionary][@"title"];
+    self.detailArr = [constDict getMainDictionary][@"detail"];
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -83,10 +52,16 @@ static NSString *identifier = @"cell";
             }
             break;
             
+        case 1:
+        {
+            TestDemo *testDemo = [TestDemo new];
+            [self.navigationController pushViewController:testDemo animated:true];
+        }
+            break;
+            
         default:
             break;
     }
-    
 }
 
 @end

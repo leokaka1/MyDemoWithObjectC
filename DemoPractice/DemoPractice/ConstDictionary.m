@@ -13,10 +13,10 @@
 -(NSDictionary *)getMainDictionary{
     
     _mainDict = @{@"title":
-                                   @[@"Button",@"Label",@"TableView"],
+                                   @[@"小码哥大神班视频",@"Label",@"TableView"],
                   
                                    @"detail":
-                                   @[@"按钮的基本使用和特殊使用",@"Label的基本使用和特殊使用",@"TableView的基本使用和特殊使用"]
+                                   @[@"大神班一些基础知识介绍",@"Label的基本使用和特殊使用",@"TableView的基本使用和特殊使用"]
                             };
     
     

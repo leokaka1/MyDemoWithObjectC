@@ -1,8 +1,8 @@
 //
-//  MainPage.h
+//  XMG_MainView.h
 //  DemoPractice
 //
-//  Created by Leon on 2019/3/4.
+//  Created by Leon on 2019/3/5.
 //  Copyright © 2019 Leon 笑 竹. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MainPage : BasicViewController
+@interface XMG_MainView : UIViewController
 
 @end
 

@@ -21,6 +21,11 @@
 		35A5487F222D03C70017AA7B /* XZCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A5487E222D03C70017AA7B /* XZCornerRadius.m */; };
 		35A54882222D0B130017AA7B /* MainPage+OtherFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54881222D0B130017AA7B /* MainPage+OtherFunction.m */; };
 		35A54885222D1CD60017AA7B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54884222D1CD60017AA7B /* Person.m */; };
+		35A54888222D2C990017AA7B /* TestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54887222D2C990017AA7B /* TestDemo.m */; };
+		35A5488E222E5A4D0017AA7B /* person.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35A5488D222E5A4D0017AA7B /* person.plist */; };
+		35A54891222E5A650017AA7B /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54890222E5A650017AA7B /* PersonModel.m */; };
+		35A54895222E7C970017AA7B /* XMG_MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54894222E7C970017AA7B /* XMG_MainView.m */; };
+		35A54899222E7D120017AA7B /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54898222E7D120017AA7B /* BasicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +76,15 @@
 		35A54881222D0B130017AA7B /* MainPage+OtherFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MainPage+OtherFunction.m"; sourceTree = "<group>"; };
 		35A54883222D1CD60017AA7B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		35A54884222D1CD60017AA7B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		35A54886222D2C990017AA7B /* TestDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDemo.h; sourceTree = "<group>"; };
+		35A54887222D2C990017AA7B /* TestDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemo.m; sourceTree = "<group>"; };
+		35A5488D222E5A4D0017AA7B /* person.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = person.plist; sourceTree = "<group>"; };
+		35A5488F222E5A650017AA7B /* PersonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		35A54890222E5A650017AA7B /* PersonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		35A54893222E7C970017AA7B /* XMG_MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMG_MainView.h; sourceTree = "<group>"; };
+		35A54894222E7C970017AA7B /* XMG_MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMG_MainView.m; sourceTree = "<group>"; };
+		35A54897222E7D120017AA7B /* BasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		35A54898222E7D120017AA7B /* BasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,11 +135,15 @@
 		35A5482E222CB0E20017AA7B /* DemoPractice */ = {
 			isa = PBXGroup;
 			children = (
+				35A54896222E7D040017AA7B /* BasicView */,
+				35A54892222E7C7F0017AA7B /* XMG_Practices */,
 				35A54875222D02990017AA7B /* XZ_CornerRadius */,
 				35A5482F222CB0E30017AA7B /* AppDelegate.h */,
 				35A54830222CB0E30017AA7B /* AppDelegate.m */,
 				35A54861222CB18F0017AA7B /* MainPage.h */,
 				35A54862222CB18F0017AA7B /* MainPage.m */,
+				35A54886222D2C990017AA7B /* TestDemo.h */,
+				35A54887222D2C990017AA7B /* TestDemo.m */,
 				35A54872222CC3AC0017AA7B /* CollectionViewPractice.h */,
 				35A54873222CC3AC0017AA7B /* CollectionViewPractice.m */,
 				35A5486C222CBB290017AA7B /* ConstArray.h */,
@@ -143,6 +161,8 @@
 				35A54881222D0B130017AA7B /* MainPage+OtherFunction.m */,
 				35A54883222D1CD60017AA7B /* Person.h */,
 				35A54884222D1CD60017AA7B /* Person.m */,
+				35A5488F222E5A650017AA7B /* PersonModel.h */,
+				35A54890222E5A650017AA7B /* PersonModel.m */,
 			);
 			path = DemoPractice;
 			sourceTree = "<group>";
@@ -151,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				35A54848222CB0E40017AA7B /* DemoPracticeTests.m */,
+				35A5488D222E5A4D0017AA7B /* person.plist */,
 				35A5484A222CB0E40017AA7B /* Info.plist */,
 			);
 			path = DemoPracticeTests;
@@ -172,6 +193,24 @@
 				35A5487E222D03C70017AA7B /* XZCornerRadius.m */,
 			);
 			path = XZ_CornerRadius;
+			sourceTree = "<group>";
+		};
+		35A54892222E7C7F0017AA7B /* XMG_Practices */ = {
+			isa = PBXGroup;
+			children = (
+				35A54893222E7C970017AA7B /* XMG_MainView.h */,
+				35A54894222E7C970017AA7B /* XMG_MainView.m */,
+			);
+			path = XMG_Practices;
+			sourceTree = "<group>";
+		};
+		35A54896222E7D040017AA7B /* BasicView */ = {
+			isa = PBXGroup;
+			children = (
+				35A54897222E7D120017AA7B /* BasicViewController.h */,
+				35A54898222E7D120017AA7B /* BasicViewController.m */,
+			);
+			path = BasicView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35A5483C222CB0E40017AA7B /* LaunchScreen.storyboard in Resources */,
+				35A5488E222E5A4D0017AA7B /* person.plist in Resources */,
 				35A54839222CB0E40017AA7B /* Assets.xcassets in Resources */,
 				35A54837222CB0E30017AA7B /* Main.storyboard in Resources */,
 			);
@@ -304,10 +344,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A54895222E7C970017AA7B /* XMG_MainView.m in Sources */,
 				35A54882222D0B130017AA7B /* MainPage+OtherFunction.m in Sources */,
 				35A54863222CB18F0017AA7B /* MainPage.m in Sources */,
+				35A54891222E5A650017AA7B /* PersonModel.m in Sources */,
+				35A54888222D2C990017AA7B /* TestDemo.m in Sources */,
 				35A5486E222CBB290017AA7B /* ConstArray.m in Sources */,
 				35A54871222CBD100017AA7B /* ConstDictionary.m in Sources */,
+				35A54899222E7D120017AA7B /* BasicViewController.m in Sources */,
 				35A5483F222CB0E40017AA7B /* main.m in Sources */,
 				35A5487F222D03C70017AA7B /* XZCornerRadius.m in Sources */,
 				35A54885222D1CD60017AA7B /* Person.m in Sources */,
