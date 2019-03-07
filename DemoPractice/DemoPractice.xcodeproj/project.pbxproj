@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3514929F223150AA00D32546 /* CartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514929D223150A900D32546 /* CartCell.m */; };
+		351492A0223150AA00D32546 /* CartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3514929E223150A900D32546 /* CartCell.xib */; };
+		351492A322315D4C00D32546 /* WineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 351492A222315D4C00D32546 /* WineModel.m */; };
 		355AADAE22314A8C00DAC3DC /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 355AADAD22314A8C00DAC3DC /* ShoppingCart.m */; };
 		35A54831222CB0E30017AA7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54830222CB0E30017AA7B /* AppDelegate.m */; };
 		35A54837222CB0E30017AA7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A54835222CB0E30017AA7B /* Main.storyboard */; };
@@ -63,6 +66,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3514929C223150A900D32546 /* CartCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartCell.h; sourceTree = "<group>"; };
+		3514929D223150A900D32546 /* CartCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartCell.m; sourceTree = "<group>"; };
+		3514929E223150A900D32546 /* CartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCell.xib; sourceTree = "<group>"; };
+		351492A122315D4C00D32546 /* WineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WineModel.h; sourceTree = "<group>"; };
+		351492A222315D4C00D32546 /* WineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WineModel.m; sourceTree = "<group>"; };
 		355AADAC22314A8C00DAC3DC /* ShoppingCart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
 		355AADAD22314A8C00DAC3DC /* ShoppingCart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
 		35A5482C222CB0E20017AA7B /* DemoPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +195,11 @@
 			children = (
 				355AADAC22314A8C00DAC3DC /* ShoppingCart.h */,
 				355AADAD22314A8C00DAC3DC /* ShoppingCart.m */,
+				3514929C223150A900D32546 /* CartCell.h */,
+				3514929D223150A900D32546 /* CartCell.m */,
+				3514929E223150A900D32546 /* CartCell.xib */,
+				351492A122315D4C00D32546 /* WineModel.h */,
+				351492A222315D4C00D32546 /* WineModel.m */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -518,6 +531,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35A5483C222CB0E40017AA7B /* LaunchScreen.storyboard in Resources */,
+				351492A0223150AA00D32546 /* CartCell.xib in Resources */,
 				35A5488E222E5A4D0017AA7B /* person.plist in Resources */,
 				35A54839222CB0E40017AA7B /* Assets.xcassets in Resources */,
 				35A54837222CB0E30017AA7B /* Main.storyboard in Resources */,
@@ -583,6 +597,7 @@
 				35A54888222D2C990017AA7B /* TestDemo.m in Sources */,
 				35A548AD222F6CE80017AA7B /* Cat.m in Sources */,
 				35A5486E222CBB290017AA7B /* ConstArray.m in Sources */,
+				351492A322315D4C00D32546 /* WineModel.m in Sources */,
 				35A548BE2230B8E10017AA7B /* SandBox.m in Sources */,
 				35A54871222CBD100017AA7B /* ConstDictionary.m in Sources */,
 				35A548A0222F5AF60017AA7B /* MainPageModel.m in Sources */,
@@ -597,6 +612,7 @@
 				35A548B52230A8AC0017AA7B /* TransValue.m in Sources */,
 				35A548D22231098D0017AA7B /* TransForm.m in Sources */,
 				355AADAE22314A8C00DAC3DC /* ShoppingCart.m in Sources */,
+				3514929F223150AA00D32546 /* CartCell.m in Sources */,
 				35A548C32230C15F0017AA7B /* CustomerButton.m in Sources */,
 				35A548D6223112FD0017AA7B /* Gesture.m in Sources */,
 			);
