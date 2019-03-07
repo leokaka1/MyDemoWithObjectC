@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		355AADAE22314A8C00DAC3DC /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 355AADAD22314A8C00DAC3DC /* ShoppingCart.m */; };
 		35A54831222CB0E30017AA7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54830222CB0E30017AA7B /* AppDelegate.m */; };
 		35A54837222CB0E30017AA7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A54835222CB0E30017AA7B /* Main.storyboard */; };
 		35A54839222CB0E40017AA7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A54838222CB0E40017AA7B /* Assets.xcassets */; };
@@ -62,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		355AADAC22314A8C00DAC3DC /* ShoppingCart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
+		355AADAD22314A8C00DAC3DC /* ShoppingCart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
 		35A5482C222CB0E20017AA7B /* DemoPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A5482F222CB0E30017AA7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35A54830222CB0E30017AA7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -179,6 +182,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		355AADA822314A5C00DAC3DC /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				355AADAC22314A8C00DAC3DC /* ShoppingCart.h */,
+				355AADAD22314A8C00DAC3DC /* ShoppingCart.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
 		35A54823222CB0E20017AA7B = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +281,7 @@
 		35A54892222E7C7F0017AA7B /* XMG_Practices */ = {
 			isa = PBXGroup;
 			children = (
+				355AADA822314A5C00DAC3DC /* TableView */,
 				35A548D3223112D50017AA7B /* Gesture */,
 				35A548CF223109530017AA7B /* Transform */,
 				35A548C42230D9190017AA7B /* NaviDemo */,
@@ -583,6 +596,7 @@
 				35A54874222CC3AC0017AA7B /* CollectionViewPractice.m in Sources */,
 				35A548B52230A8AC0017AA7B /* TransValue.m in Sources */,
 				35A548D22231098D0017AA7B /* TransForm.m in Sources */,
+				355AADAE22314A8C00DAC3DC /* ShoppingCart.m in Sources */,
 				35A548C32230C15F0017AA7B /* CustomerButton.m in Sources */,
 				35A548D6223112FD0017AA7B /* Gesture.m in Sources */,
 			);

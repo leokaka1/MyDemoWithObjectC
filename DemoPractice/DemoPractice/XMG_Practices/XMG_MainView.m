@@ -12,6 +12,7 @@
 #import "NaviDemo.h"
 #import "Transform.h"
 #import "Gesture.h"
+#import "ShoppingCart.h"
 
 @interface XMG_MainView ()
 
@@ -86,6 +87,13 @@
         {
             Gesture *gesture = [Gesture new];
             [self.navigationController pushViewController:gesture animated:true];
+        }
+            break;
+            
+        case 7:
+        {
+            ShoppingCart *cart = [ShoppingCart new];
+            [self.navigationController pushViewController:cart animated:true];
         }
             break;
             
