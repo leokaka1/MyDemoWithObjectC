@@ -11,6 +11,7 @@
 #import "Sandbox.h"
 #import "NaviDemo.h"
 #import "Transform.h"
+#import "Gesture.h"
 
 @interface XMG_MainView ()
 
@@ -78,6 +79,13 @@
         {
             TransForm *trans = [TransForm new];
             [self.navigationController pushViewController:trans animated:true];
+        }
+            break;
+            
+        case 6:
+        {
+            Gesture *gesture = [Gesture new];
+            [self.navigationController pushViewController:gesture animated:true];
         }
             break;
             

@@ -39,6 +39,8 @@
 		35A548CB2230DB050017AA7B /* KutilManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548CA2230DB050017AA7B /* KutilManager.m */; };
 		35A548CE2230EAF20017AA7B /* UINavigationBar+transBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548CD2230EAF20017AA7B /* UINavigationBar+transBar.m */; };
 		35A548D22231098D0017AA7B /* TransForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548D12231098D0017AA7B /* TransForm.m */; };
+		35A548D6223112FD0017AA7B /* Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548D5223112FD0017AA7B /* Gesture.m */; };
+		35A548DC223113FF0017AA7B /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548DB223113FF0017AA7B /* RedView.m */; };
 		B0A632975F0F80770F8AF699 /* libPods-DemoPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +127,10 @@
 		35A548CD2230EAF20017AA7B /* UINavigationBar+transBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+transBar.m"; sourceTree = "<group>"; };
 		35A548D02231098D0017AA7B /* TransForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransForm.h; sourceTree = "<group>"; };
 		35A548D12231098D0017AA7B /* TransForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransForm.m; sourceTree = "<group>"; };
+		35A548D4223112FD0017AA7B /* Gesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gesture.h; sourceTree = "<group>"; };
+		35A548D5223112FD0017AA7B /* Gesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gesture.m; sourceTree = "<group>"; };
+		35A548DA223113FF0017AA7B /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		35A548DB223113FF0017AA7B /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
 		3DAA84B20E99A4E9FBF24B78 /* Pods-DemoPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FC2137E3E1919B06EAEE9 /* Pods-DemoPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -263,6 +269,7 @@
 		35A54892222E7C7F0017AA7B /* XMG_Practices */ = {
 			isa = PBXGroup;
 			children = (
+				35A548D3223112D50017AA7B /* Gesture */,
 				35A548CF223109530017AA7B /* Transform */,
 				35A548C42230D9190017AA7B /* NaviDemo */,
 				35A548BB2230B8D40017AA7B /* Sandbox */,
@@ -380,6 +387,17 @@
 				35A548D12231098D0017AA7B /* TransForm.m */,
 			);
 			path = Transform;
+			sourceTree = "<group>";
+		};
+		35A548D3223112D50017AA7B /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				35A548D4223112FD0017AA7B /* Gesture.h */,
+				35A548D5223112FD0017AA7B /* Gesture.m */,
+				35A548DA223113FF0017AA7B /* RedView.h */,
+				35A548DB223113FF0017AA7B /* RedView.m */,
+			);
+			path = Gesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -545,6 +563,7 @@
 				35A548B1222F787A0017AA7B /* UIBasic.m in Sources */,
 				35A54863222CB18F0017AA7B /* MainPage.m in Sources */,
 				35A548A4222F63E00017AA7B /* TransDict.m in Sources */,
+				35A548DC223113FF0017AA7B /* RedView.m in Sources */,
 				35A548CB2230DB050017AA7B /* KutilManager.m in Sources */,
 				35A548C72230D9240017AA7B /* NaviDemo.m in Sources */,
 				35A54891222E5A650017AA7B /* PersonModel.m in Sources */,
@@ -565,6 +584,7 @@
 				35A548B52230A8AC0017AA7B /* TransValue.m in Sources */,
 				35A548D22231098D0017AA7B /* TransForm.m in Sources */,
 				35A548C32230C15F0017AA7B /* CustomerButton.m in Sources */,
+				35A548D6223112FD0017AA7B /* Gesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
