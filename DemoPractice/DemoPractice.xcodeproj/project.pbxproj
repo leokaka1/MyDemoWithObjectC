@@ -20,12 +20,26 @@
 		35A54874222CC3AC0017AA7B /* CollectionViewPractice.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54873222CC3AC0017AA7B /* CollectionViewPractice.m */; };
 		35A5487F222D03C70017AA7B /* XZCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A5487E222D03C70017AA7B /* XZCornerRadius.m */; };
 		35A54882222D0B130017AA7B /* MainPage+OtherFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54881222D0B130017AA7B /* MainPage+OtherFunction.m */; };
-		35A54885222D1CD60017AA7B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54884222D1CD60017AA7B /* Person.m */; };
 		35A54888222D2C990017AA7B /* TestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54887222D2C990017AA7B /* TestDemo.m */; };
 		35A5488E222E5A4D0017AA7B /* person.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35A5488D222E5A4D0017AA7B /* person.plist */; };
 		35A54891222E5A650017AA7B /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54890222E5A650017AA7B /* PersonModel.m */; };
 		35A54895222E7C970017AA7B /* XMG_MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54894222E7C970017AA7B /* XMG_MainView.m */; };
 		35A54899222E7D120017AA7B /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54898222E7D120017AA7B /* BasicViewController.m */; };
+		35A548A0222F5AF60017AA7B /* MainPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A5489F222F5AF60017AA7B /* MainPageModel.m */; };
+		35A548A4222F63E00017AA7B /* TransDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548A3222F63E00017AA7B /* TransDict.m */; };
+		35A548A7222F64A60017AA7B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548A6222F64A60017AA7B /* Person.m */; };
+		35A548AA222F64B10017AA7B /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548A9222F64B10017AA7B /* Dog.m */; };
+		35A548AD222F6CE80017AA7B /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548AC222F6CE80017AA7B /* Cat.m */; };
+		35A548B1222F787A0017AA7B /* UIBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548B0222F787A0017AA7B /* UIBasic.m */; };
+		35A548B52230A8AC0017AA7B /* TransValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548B42230A8AC0017AA7B /* TransValue.m */; };
+		35A548B82230AA470017AA7B /* TransValueNext.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548B72230AA470017AA7B /* TransValueNext.m */; };
+		35A548BE2230B8E10017AA7B /* SandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548BD2230B8E10017AA7B /* SandBox.m */; };
+		35A548C32230C15F0017AA7B /* CustomerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548C22230C15F0017AA7B /* CustomerButton.m */; };
+		35A548C72230D9240017AA7B /* NaviDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548C62230D9240017AA7B /* NaviDemo.m */; };
+		35A548CB2230DB050017AA7B /* KutilManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548CA2230DB050017AA7B /* KutilManager.m */; };
+		35A548CE2230EAF20017AA7B /* UINavigationBar+transBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548CD2230EAF20017AA7B /* UINavigationBar+transBar.m */; };
+		35A548D22231098D0017AA7B /* TransForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548D12231098D0017AA7B /* TransForm.m */; };
+		B0A632975F0F80770F8AF699 /* libPods-DemoPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,8 +88,6 @@
 		35A5487E222D03C70017AA7B /* XZCornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZCornerRadius.m; sourceTree = "<group>"; };
 		35A54880222D0B130017AA7B /* MainPage+OtherFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MainPage+OtherFunction.h"; sourceTree = "<group>"; };
 		35A54881222D0B130017AA7B /* MainPage+OtherFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MainPage+OtherFunction.m"; sourceTree = "<group>"; };
-		35A54883222D1CD60017AA7B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		35A54884222D1CD60017AA7B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		35A54886222D2C990017AA7B /* TestDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDemo.h; sourceTree = "<group>"; };
 		35A54887222D2C990017AA7B /* TestDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemo.m; sourceTree = "<group>"; };
 		35A5488D222E5A4D0017AA7B /* person.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = person.plist; sourceTree = "<group>"; };
@@ -85,6 +97,37 @@
 		35A54894222E7C970017AA7B /* XMG_MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMG_MainView.m; sourceTree = "<group>"; };
 		35A54897222E7D120017AA7B /* BasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
 		35A54898222E7D120017AA7B /* BasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		35A5489E222F5AF60017AA7B /* MainPageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageModel.h; sourceTree = "<group>"; };
+		35A5489F222F5AF60017AA7B /* MainPageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageModel.m; sourceTree = "<group>"; };
+		35A548A2222F63E00017AA7B /* TransDict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransDict.h; sourceTree = "<group>"; };
+		35A548A3222F63E00017AA7B /* TransDict.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransDict.m; sourceTree = "<group>"; };
+		35A548A5222F64A60017AA7B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		35A548A6222F64A60017AA7B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		35A548A8222F64B10017AA7B /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		35A548A9222F64B10017AA7B /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		35A548AB222F6CE80017AA7B /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		35A548AC222F6CE80017AA7B /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		35A548AF222F787A0017AA7B /* UIBasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIBasic.h; sourceTree = "<group>"; };
+		35A548B0222F787A0017AA7B /* UIBasic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBasic.m; sourceTree = "<group>"; };
+		35A548B32230A8AC0017AA7B /* TransValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransValue.h; sourceTree = "<group>"; };
+		35A548B42230A8AC0017AA7B /* TransValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransValue.m; sourceTree = "<group>"; };
+		35A548B62230AA470017AA7B /* TransValueNext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransValueNext.h; sourceTree = "<group>"; };
+		35A548B72230AA470017AA7B /* TransValueNext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransValueNext.m; sourceTree = "<group>"; };
+		35A548BC2230B8E10017AA7B /* SandBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandBox.h; sourceTree = "<group>"; };
+		35A548BD2230B8E10017AA7B /* SandBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandBox.m; sourceTree = "<group>"; };
+		35A548C12230C15F0017AA7B /* CustomerButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerButton.h; sourceTree = "<group>"; };
+		35A548C22230C15F0017AA7B /* CustomerButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerButton.m; sourceTree = "<group>"; };
+		35A548C52230D9240017AA7B /* NaviDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaviDemo.h; sourceTree = "<group>"; };
+		35A548C62230D9240017AA7B /* NaviDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviDemo.m; sourceTree = "<group>"; };
+		35A548C92230DB050017AA7B /* KutilManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KutilManager.h; sourceTree = "<group>"; };
+		35A548CA2230DB050017AA7B /* KutilManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KutilManager.m; sourceTree = "<group>"; };
+		35A548CC2230EAF20017AA7B /* UINavigationBar+transBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+transBar.h"; sourceTree = "<group>"; };
+		35A548CD2230EAF20017AA7B /* UINavigationBar+transBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+transBar.m"; sourceTree = "<group>"; };
+		35A548D02231098D0017AA7B /* TransForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransForm.h; sourceTree = "<group>"; };
+		35A548D12231098D0017AA7B /* TransForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransForm.m; sourceTree = "<group>"; };
+		3DAA84B20E99A4E9FBF24B78 /* Pods-DemoPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656FC2137E3E1919B06EAEE9 /* Pods-DemoPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A632975F0F80770F8AF699 /* libPods-DemoPractice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +156,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		233753A70F2261F1C07E5CE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26A6BBB1FFFE3386078B8365 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DAA84B20E99A4E9FBF24B78 /* Pods-DemoPractice.debug.xcconfig */,
+				656FC2137E3E1919B06EAEE9 /* Pods-DemoPractice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		35A54823222CB0E20017AA7B = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +180,8 @@
 				35A54847222CB0E40017AA7B /* DemoPracticeTests */,
 				35A54852222CB0E40017AA7B /* DemoPracticeUITests */,
 				35A5482D222CB0E20017AA7B /* Products */,
+				26A6BBB1FFFE3386078B8365 /* Pods */,
+				233753A70F2261F1C07E5CE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +198,10 @@
 		35A5482E222CB0E20017AA7B /* DemoPractice */ = {
 			isa = PBXGroup;
 			children = (
+				35A548C82230DAE80017AA7B /* Util */,
+				35A548C02230C1500017AA7B /* CustomerUI */,
+				35A548BF2230C0FD0017AA7B /* Category */,
+				35A5489A222F57850017AA7B /* Model */,
 				35A54896222E7D040017AA7B /* BasicView */,
 				35A54892222E7C7F0017AA7B /* XMG_Practices */,
 				35A54875222D02990017AA7B /* XZ_CornerRadius */,
@@ -159,8 +226,6 @@
 				35A5483E222CB0E40017AA7B /* main.m */,
 				35A54880222D0B130017AA7B /* MainPage+OtherFunction.h */,
 				35A54881222D0B130017AA7B /* MainPage+OtherFunction.m */,
-				35A54883222D1CD60017AA7B /* Person.h */,
-				35A54884222D1CD60017AA7B /* Person.m */,
 				35A5488F222E5A650017AA7B /* PersonModel.h */,
 				35A54890222E5A650017AA7B /* PersonModel.m */,
 			);
@@ -198,6 +263,12 @@
 		35A54892222E7C7F0017AA7B /* XMG_Practices */ = {
 			isa = PBXGroup;
 			children = (
+				35A548CF223109530017AA7B /* Transform */,
+				35A548C42230D9190017AA7B /* NaviDemo */,
+				35A548BB2230B8D40017AA7B /* Sandbox */,
+				35A548B22230A8990017AA7B /* TransValue */,
+				35A548AE222F78640017AA7B /* UI */,
+				35A548A1222F63C20017AA7B /* DictTransModel */,
 				35A54893222E7C970017AA7B /* XMG_MainView.h */,
 				35A54894222E7C970017AA7B /* XMG_MainView.m */,
 			);
@@ -213,6 +284,104 @@
 			path = BasicView;
 			sourceTree = "<group>";
 		};
+		35A5489A222F57850017AA7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35A5489E222F5AF60017AA7B /* MainPageModel.h */,
+				35A5489F222F5AF60017AA7B /* MainPageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35A548A1222F63C20017AA7B /* DictTransModel */ = {
+			isa = PBXGroup;
+			children = (
+				35A548A2222F63E00017AA7B /* TransDict.h */,
+				35A548A3222F63E00017AA7B /* TransDict.m */,
+				35A548A5222F64A60017AA7B /* Person.h */,
+				35A548A6222F64A60017AA7B /* Person.m */,
+				35A548A8222F64B10017AA7B /* Dog.h */,
+				35A548A9222F64B10017AA7B /* Dog.m */,
+				35A548AB222F6CE80017AA7B /* Cat.h */,
+				35A548AC222F6CE80017AA7B /* Cat.m */,
+			);
+			path = DictTransModel;
+			sourceTree = "<group>";
+		};
+		35A548AE222F78640017AA7B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				35A548AF222F787A0017AA7B /* UIBasic.h */,
+				35A548B0222F787A0017AA7B /* UIBasic.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		35A548B22230A8990017AA7B /* TransValue */ = {
+			isa = PBXGroup;
+			children = (
+				35A548B32230A8AC0017AA7B /* TransValue.h */,
+				35A548B42230A8AC0017AA7B /* TransValue.m */,
+				35A548B62230AA470017AA7B /* TransValueNext.h */,
+				35A548B72230AA470017AA7B /* TransValueNext.m */,
+			);
+			path = TransValue;
+			sourceTree = "<group>";
+		};
+		35A548BB2230B8D40017AA7B /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				35A548BC2230B8E10017AA7B /* SandBox.h */,
+				35A548BD2230B8E10017AA7B /* SandBox.m */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		35A548BF2230C0FD0017AA7B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				35A548CC2230EAF20017AA7B /* UINavigationBar+transBar.h */,
+				35A548CD2230EAF20017AA7B /* UINavigationBar+transBar.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		35A548C02230C1500017AA7B /* CustomerUI */ = {
+			isa = PBXGroup;
+			children = (
+				35A548C12230C15F0017AA7B /* CustomerButton.h */,
+				35A548C22230C15F0017AA7B /* CustomerButton.m */,
+			);
+			path = CustomerUI;
+			sourceTree = "<group>";
+		};
+		35A548C42230D9190017AA7B /* NaviDemo */ = {
+			isa = PBXGroup;
+			children = (
+				35A548C52230D9240017AA7B /* NaviDemo.h */,
+				35A548C62230D9240017AA7B /* NaviDemo.m */,
+			);
+			path = NaviDemo;
+			sourceTree = "<group>";
+		};
+		35A548C82230DAE80017AA7B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				35A548C92230DB050017AA7B /* KutilManager.h */,
+				35A548CA2230DB050017AA7B /* KutilManager.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		35A548CF223109530017AA7B /* Transform */ = {
+			isa = PBXGroup;
+			children = (
+				35A548D02231098D0017AA7B /* TransForm.h */,
+				35A548D12231098D0017AA7B /* TransForm.m */,
+			);
+			path = Transform;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,6 +389,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35A54858222CB0E40017AA7B /* Build configuration list for PBXNativeTarget "DemoPractice" */;
 			buildPhases = (
+				4D99D2969476FA3843DE0C65 /* [CP] Check Pods Manifest.lock */,
 				35A54828222CB0E20017AA7B /* Sources */,
 				35A54829222CB0E20017AA7B /* Frameworks */,
 				35A5482A222CB0E20017AA7B /* Resources */,
@@ -339,24 +509,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D99D2969476FA3843DE0C65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35A54828222CB0E20017AA7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A548CE2230EAF20017AA7B /* UINavigationBar+transBar.m in Sources */,
 				35A54895222E7C970017AA7B /* XMG_MainView.m in Sources */,
 				35A54882222D0B130017AA7B /* MainPage+OtherFunction.m in Sources */,
+				35A548B1222F787A0017AA7B /* UIBasic.m in Sources */,
 				35A54863222CB18F0017AA7B /* MainPage.m in Sources */,
+				35A548A4222F63E00017AA7B /* TransDict.m in Sources */,
+				35A548CB2230DB050017AA7B /* KutilManager.m in Sources */,
+				35A548C72230D9240017AA7B /* NaviDemo.m in Sources */,
 				35A54891222E5A650017AA7B /* PersonModel.m in Sources */,
 				35A54888222D2C990017AA7B /* TestDemo.m in Sources */,
+				35A548AD222F6CE80017AA7B /* Cat.m in Sources */,
 				35A5486E222CBB290017AA7B /* ConstArray.m in Sources */,
+				35A548BE2230B8E10017AA7B /* SandBox.m in Sources */,
 				35A54871222CBD100017AA7B /* ConstDictionary.m in Sources */,
+				35A548A0222F5AF60017AA7B /* MainPageModel.m in Sources */,
 				35A54899222E7D120017AA7B /* BasicViewController.m in Sources */,
+				35A548A7222F64A60017AA7B /* Person.m in Sources */,
 				35A5483F222CB0E40017AA7B /* main.m in Sources */,
 				35A5487F222D03C70017AA7B /* XZCornerRadius.m in Sources */,
-				35A54885222D1CD60017AA7B /* Person.m in Sources */,
+				35A548B82230AA470017AA7B /* TransValueNext.m in Sources */,
 				35A54831222CB0E30017AA7B /* AppDelegate.m in Sources */,
+				35A548AA222F64B10017AA7B /* Dog.m in Sources */,
 				35A54874222CC3AC0017AA7B /* CollectionViewPractice.m in Sources */,
+				35A548B52230A8AC0017AA7B /* TransValue.m in Sources */,
+				35A548D22231098D0017AA7B /* TransForm.m in Sources */,
+				35A548C32230C15F0017AA7B /* CustomerButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +733,7 @@
 		};
 		35A54859222CB0E40017AA7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DAA84B20E99A4E9FBF24B78 /* Pods-DemoPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +752,7 @@
 		};
 		35A5485A222CB0E40017AA7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656FC2137E3E1919B06EAEE9 /* Pods-DemoPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

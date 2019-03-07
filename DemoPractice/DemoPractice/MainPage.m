@@ -14,31 +14,28 @@ static NSString *identifier = @"cell";
 
 @interface MainPage ()
 
-@property(strong,nonatomic) UITableView  *basicTableView;
+
 
 
 @end
 
 @implementation MainPage
 
--(void)viewWillAppear:(BOOL)animated{
+- (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self setDataSource];
+    NSDictionary *dict = [[ConstDictionary new] getMainDictionary];
+    self.itemDict = dict;
+    MainPageModel *model = [[MainPageModel alloc]initWithDict:dict];
+    self.titleArr = model.title;
+    self.detailArr = model.detail;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.title = @"首页";
 }
 
--(void)setDataSource{
-    self.titleArr = [NSArray array];
-    self.detailArr = [NSArray array];
-    ConstDictionary *constDict = [ConstDictionary new];
-    self.titleArr = [constDict getMainDictionary][@"title"];
-    self.detailArr = [constDict getMainDictionary][@"detail"];
-}
+
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
@@ -47,8 +44,8 @@ static NSString *identifier = @"cell";
     switch (indexPath.row) {
         case 0:
             {
-                CollectionViewPractice *collectionView = [CollectionViewPractice new];
-                [self.navigationController pushViewController:collectionView animated:true];
+                XMG_MainView *xmgMain   = [XMG_MainView new];
+                [self.navigationController pushViewController:xmgMain animated:true];
             }
             break;
             

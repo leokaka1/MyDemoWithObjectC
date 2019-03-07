@@ -18,9 +18,17 @@ static NSString *identifier = @"BasicCell";
 
 @implementation BasicViewController
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.titleArr = [NSArray array];
+    self.detailArr = [NSArray array];
+//    [self setDataSource];
     [self setupUI];
 }
 
@@ -32,6 +40,12 @@ static NSString *identifier = @"BasicCell";
     [self.view addSubview:_basicTableView];
 }
 
+//-(void)setDataSource{
+////    ConstDictionary *constDict = [ConstDictionary new];
+//    self.titleArr = self.itemDict[@"title"];
+//    self.detailArr = self.itemDict[@"detail"];
+////    self.detailArr = [constDict getMainDictionary][@"detail"];
+//}
 
 #pragma mark - 基本TableView的代理方法
 #pragma mark     UITableViewDelegate,UITableViewDataSource
@@ -52,5 +66,8 @@ static NSString *identifier = @"BasicCell";
     
     return cell;
 }
+
+
+
 
 @end

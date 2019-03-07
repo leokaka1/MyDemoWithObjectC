@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSArray  *basicDataArr;
 @property(strong,nonatomic) NSArray *titleArr;
 @property(strong,nonatomic) NSArray *detailArr;
+@property(strong,nonatomic) NSDictionary *itemDict;
+
+
 
 @end
 

@@ -8,14 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ConstDictionary : NSObject
 
 @property(strong,nonatomic) NSDictionary *mainDict;
+@property(strong,nonatomic) NSDictionary *xmgMainDict;
 
 -(NSDictionary *)getMainDictionary;
+-(NSDictionary *)getXMGMainDictionary;
 
 @end
+
+
 
 NS_ASSUME_NONNULL_END

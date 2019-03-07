@@ -16,7 +16,15 @@
 #import "XZCornerRadius.h"
 #import "TestDemo.h"
 #import "BasicViewController.h"
-
+#import "XMG_MainView.h"
+#import "MainPageModel.h"
+#import "TransDict.h"
+#import "UIBasic.h"
+#import <Masonry.h>
+#import <objc/runtime.h>
+#import "CustomerButton.h"
+#import "KutilManager.h"
+#import "UINavigationBar+transBar.h"
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 

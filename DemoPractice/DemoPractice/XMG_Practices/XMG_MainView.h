@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface XMG_MainView : UIViewController
+@interface XMG_MainView : BasicViewController
 
 @end
 
