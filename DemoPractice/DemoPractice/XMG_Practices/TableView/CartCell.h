@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol cellDelegate <NSObject>
 
--(void)itemCount:(int)count itemPrice:(int)price isAdd:(BOOL)isadd;
+-(void)itemCount:(int)count itemPrice:(int)price isAdd:(BOOL)isadd no:(NSString *)itemNo;
 
 @end
 

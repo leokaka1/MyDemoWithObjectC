@@ -45,6 +45,7 @@
 		35A548D22231098D0017AA7B /* TransForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548D12231098D0017AA7B /* TransForm.m */; };
 		35A548D6223112FD0017AA7B /* Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548D5223112FD0017AA7B /* Gesture.m */; };
 		35A548DC223113FF0017AA7B /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548DB223113FF0017AA7B /* RedView.m */; };
+		35A548DE2231F39E0017AA7B /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 35A548DD2231F39E0017AA7B /* podfile */; };
 		B0A632975F0F80770F8AF699 /* libPods-DemoPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +143,7 @@
 		35A548D5223112FD0017AA7B /* Gesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gesture.m; sourceTree = "<group>"; };
 		35A548DA223113FF0017AA7B /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
 		35A548DB223113FF0017AA7B /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		35A548DD2231F39E0017AA7B /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3DAA84B20E99A4E9FBF24B78 /* Pods-DemoPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FC2137E3E1919B06EAEE9 /* Pods-DemoPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -259,6 +261,7 @@
 				35A54881222D0B130017AA7B /* MainPage+OtherFunction.m */,
 				35A5488F222E5A650017AA7B /* PersonModel.h */,
 				35A54890222E5A650017AA7B /* PersonModel.m */,
+				35A548DD2231F39E0017AA7B /* podfile */,
 			);
 			path = DemoPractice;
 			sourceTree = "<group>";
@@ -530,6 +533,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A548DE2231F39E0017AA7B /* podfile in Resources */,
 				35A5483C222CB0E40017AA7B /* LaunchScreen.storyboard in Resources */,
 				351492A0223150AA00D32546 /* CartCell.xib in Resources */,
 				35A5488E222E5A4D0017AA7B /* person.plist in Resources */,

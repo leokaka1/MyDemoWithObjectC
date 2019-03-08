@@ -23,42 +23,16 @@ static NSString *identifier = @"cell";
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    NSDictionary *dict = [[ConstDictionary new] getMainDictionary];
-    self.itemDict = dict;
-    MainPageModel *model = [[MainPageModel alloc]initWithDict:dict];
+    
+    MainPageModel *model = [[MainPageModel alloc]initWithDict:[ConstDictionary getMainDictionary]];
     self.titleArr = model.title;
     self.detailArr = model.detail;
+    self.controllerArr = model.controller;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"首页";
-}
-
-
-
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-    [tableView deselectRowAtIndexPath:indexPath animated:true];
-    
-    switch (indexPath.row) {
-        case 0:
-            {
-                XMG_MainView *xmgMain   = [XMG_MainView new];
-                [self.navigationController pushViewController:xmgMain animated:true];
-            }
-            break;
-            
-        case 1:
-        {
-            TestDemo *testDemo = [TestDemo new];
-            [self.navigationController pushViewController:testDemo animated:true];
-        }
-            break;
-            
-        default:
-            break;
-    }
 }
 
 @end

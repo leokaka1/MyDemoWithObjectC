@@ -16,8 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(strong,nonatomic) NSDictionary *mainDict;
 @property(strong,nonatomic) NSDictionary *xmgMainDict;
 
--(NSDictionary *)getMainDictionary;
--(NSDictionary *)getXMGMainDictionary;
++(NSDictionary *)getMainDictionary;
++(NSDictionary *)getXMGMainDictionary;
 
 @end
 

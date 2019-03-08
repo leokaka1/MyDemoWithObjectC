@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(strong,nonatomic)  NSArray *title;
 @property(strong,nonatomic)  NSArray *detail;
+@property(strong,nonatomic)  NSArray *controller;
 
 -(instancetype)initWithDict:(NSDictionary *)dict;
 

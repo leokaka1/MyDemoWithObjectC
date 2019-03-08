@@ -37,13 +37,17 @@
     self.priceLabel.text = model.price;
     self.price = model.price;
     self.no = model.no;
+    [self.itemPicture sd_setImageWithURL:[NSURL URLWithString:model.image]];
+    self.itemPicture.aliCornerRadius = 29;
+    self.itemPicture.layer.borderWidth = 1;
+    self.itemPicture.layer.borderColor = [UIColor blueColor].CGColor;
 }
 
 - (IBAction)add:(UIButton *)sender {
     self.count++;
     self.itemCountLabel.text = [NSString stringWithFormat:@"%d",(self.count)];
     int price = [self.price intValue];
-    [self.delegate itemCount:self.count itemPrice: price isAdd:true];
+    [self.delegate itemCount:self.count itemPrice: price isAdd:true no:self.no];
 }
 
 
@@ -55,7 +59,7 @@
     self.itemCountLabel.text = [NSString stringWithFormat:@"%d",(self.count)];
     
     int price = [self.price intValue];
-    [self.delegate itemCount:self.count itemPrice: price isAdd:false];
+    [self.delegate itemCount:self.count itemPrice: price isAdd:false no:self.no];
 }
 
 

@@ -118,12 +118,13 @@ static NSString *identifier = @"cell_ID";
     return cell;
 }
 
--(void)itemCount:(int)count itemPrice:(int)price isAdd:(BOOL)isadd{
+-(void)itemCount:(int)count itemPrice:(int)price isAdd:(BOOL)isadd no:(NSString *)itemNo{
     
 //    NSLog(@"%d,%d",count,price);
-    isadd ? (self.sumPrice += price) : (self.sumPrice -= price);
+//    isadd ? (self.sumPrice += price) : (self.sumPrice -= price);
 //    self.sumPrice += price;
-    self.sumPrice < 0 ? self.sumPrice = 0 : self.sumPrice;
+//    self.sumPrice < 0 ? self.sumPrice = 0 : self.sumPrice;
+    
     
     NSLog(@"sumPrice = %d",self.sumPrice);
     

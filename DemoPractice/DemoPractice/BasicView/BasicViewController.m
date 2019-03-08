@@ -28,6 +28,7 @@ static NSString *identifier = @"BasicCell";
     [super viewDidLoad];
     self.titleArr = [NSArray array];
     self.detailArr = [NSArray array];
+    self.controllerArr = [NSArray array];
 //    [self setDataSource];
     [self setupUI];
 }
@@ -67,7 +68,14 @@ static NSString *identifier = @"BasicCell";
     return cell;
 }
 
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:true];
+    
+    Class class = NSClassFromString(self.controllerArr[indexPath.row]);
+    UIViewController *destVC = [[class alloc]init];
+    [self.navigationController pushViewController:destVC animated:true];
+    
+}
 
 
 @end
