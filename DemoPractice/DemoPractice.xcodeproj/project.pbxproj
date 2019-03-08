@@ -50,6 +50,7 @@
 		35A548E5223254340017AA7B /* TestDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548E4223254340017AA7B /* TestDrawController.m */; };
 		35A548E9223256FE0017AA7B /* Quartz2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548E8223256FE0017AA7B /* Quartz2D.m */; };
 		35A548EC2232585F0017AA7B /* XZDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548EB2232585F0017AA7B /* XZDrawController.m */; };
+		35A548EF223262BC0017AA7B /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548EE223262BC0017AA7B /* QuartzView.m */; };
 		B0A632975F0F80770F8AF699 /* libPods-DemoPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */; };
 /* End PBXBuildFile section */
 
@@ -156,6 +157,8 @@
 		35A548E8223256FE0017AA7B /* Quartz2D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2D.m; sourceTree = "<group>"; };
 		35A548EA2232585F0017AA7B /* XZDrawController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZDrawController.h; sourceTree = "<group>"; };
 		35A548EB2232585F0017AA7B /* XZDrawController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZDrawController.m; sourceTree = "<group>"; };
+		35A548ED223262BC0017AA7B /* QuartzView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzView.h; sourceTree = "<group>"; };
+		35A548EE223262BC0017AA7B /* QuartzView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
 		3DAA84B20E99A4E9FBF24B78 /* Pods-DemoPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FC2137E3E1919B06EAEE9 /* Pods-DemoPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -461,6 +464,8 @@
 			children = (
 				35A548E7223256FE0017AA7B /* Quartz2D.h */,
 				35A548E8223256FE0017AA7B /* Quartz2D.m */,
+				35A548ED223262BC0017AA7B /* QuartzView.h */,
+				35A548EE223262BC0017AA7B /* QuartzView.m */,
 			);
 			path = Quartz2D;
 			sourceTree = "<group>";
@@ -633,6 +638,7 @@
 				35A548DC223113FF0017AA7B /* RedView.m in Sources */,
 				35A548EC2232585F0017AA7B /* XZDrawController.m in Sources */,
 				35A548CB2230DB050017AA7B /* KutilManager.m in Sources */,
+				35A548EF223262BC0017AA7B /* QuartzView.m in Sources */,
 				35A548C72230D9240017AA7B /* NaviDemo.m in Sources */,
 				35A54891222E5A650017AA7B /* PersonModel.m in Sources */,
 				35A54888222D2C990017AA7B /* TestDemo.m in Sources */,

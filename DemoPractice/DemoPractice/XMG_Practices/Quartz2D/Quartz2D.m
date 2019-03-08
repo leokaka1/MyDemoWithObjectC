@@ -7,8 +7,11 @@
 //
 
 #import "Quartz2D.h"
+#import "QuartzView.h"
 
 @interface Quartz2D ()
+
+@property(strong,nonatomic) QuartzView *Quarz_view;
 
 @end
 
@@ -16,17 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    _Quarz_view = [[QuartzView alloc]initWithFrame:CGRectMake(45, 100, 300, 300)];
+    _Quarz_view.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:_Quarz_view];
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
