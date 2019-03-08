@@ -7,7 +7,7 @@
 //
 
 #import "BasicViewController.h"
-
+#import "XZDrawController.h"
 
 static NSString *identifier = @"BasicCell";
 @interface BasicViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -73,7 +73,12 @@ static NSString *identifier = @"BasicCell";
     
     Class class = NSClassFromString(self.controllerArr[indexPath.row]);
     UIViewController *destVC = [[class alloc]init];
-    [self.navigationController pushViewController:destVC animated:true];
+    
+    if ([destVC isMemberOfClass:[XZDrawController class]]) {
+        [self presentViewController:destVC animated:true completion:nil];
+    }else{
+        [self.navigationController pushViewController:destVC animated:true];
+    }
     
 }
 

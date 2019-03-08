@@ -100,6 +100,8 @@
                 <outlet property="itemCountLabel" destination="iGG-2O-Heu" id="HEa-Z2-Z4s"/>
                 <outlet property="itemNameLabel" destination="eKt-sc-ADo" id="wkD-6c-P7A"/>
                 <outlet property="itemPicture" destination="9K5-pF-qCH" id="3Uz-Qw-axJ"/>
+                <outlet property="minusButton" destination="AEc-x3-bST" id="lKu-bn-TU1"/>
+                <outlet property="plusButton" destination="CZx-PP-6qB" id="TOS-85-Qe1"/>
                 <outlet property="priceLabel" destination="4yC-bF-ZKX" id="Peh-fx-XIF"/>
             </connections>
             <point key="canvasLocation" x="157.59999999999999" y="183.95802098950526"/>

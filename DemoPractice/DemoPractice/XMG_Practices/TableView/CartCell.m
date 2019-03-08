@@ -23,7 +23,7 @@
     [super awakeFromNib];
     
     self.count = 0;
-    
+    self.minusButton.enabled = false;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -45,6 +45,7 @@
 
 - (IBAction)add:(UIButton *)sender {
     self.count++;
+    self.minusButton.enabled = true;
     self.itemCountLabel.text = [NSString stringWithFormat:@"%d",(self.count)];
     int price = [self.price intValue];
     [self.delegate itemCount:self.count itemPrice: price isAdd:true no:self.no];
@@ -53,12 +54,21 @@
 
 - (IBAction)remove:(UIButton *)sender {
     self.count--;
+    
+    if (_count > 0) {
+        self.minusButton.enabled = true;
+    }else{
+        self.minusButton.enabled = false;
+    }
+    
+    int price = [self.price intValue];
     if (self.count < 0) {
         self.count = 0;
+        price = 0;
     }
     self.itemCountLabel.text = [NSString stringWithFormat:@"%d",(self.count)];
     
-    int price = [self.price intValue];
+    
     [self.delegate itemCount:self.count itemPrice: price isAdd:false no:self.no];
 }
 

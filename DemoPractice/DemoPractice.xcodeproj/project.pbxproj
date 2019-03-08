@@ -46,6 +46,10 @@
 		35A548D6223112FD0017AA7B /* Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548D5223112FD0017AA7B /* Gesture.m */; };
 		35A548DC223113FF0017AA7B /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548DB223113FF0017AA7B /* RedView.m */; };
 		35A548DE2231F39E0017AA7B /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 35A548DD2231F39E0017AA7B /* podfile */; };
+		35A548E2223235270017AA7B /* DrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548E1223235270017AA7B /* DrawController.m */; };
+		35A548E5223254340017AA7B /* TestDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548E4223254340017AA7B /* TestDrawController.m */; };
+		35A548E9223256FE0017AA7B /* Quartz2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548E8223256FE0017AA7B /* Quartz2D.m */; };
+		35A548EC2232585F0017AA7B /* XZDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548EB2232585F0017AA7B /* XZDrawController.m */; };
 		B0A632975F0F80770F8AF699 /* libPods-DemoPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */; };
 /* End PBXBuildFile section */
 
@@ -144,6 +148,14 @@
 		35A548DA223113FF0017AA7B /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
 		35A548DB223113FF0017AA7B /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
 		35A548DD2231F39E0017AA7B /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		35A548E0223235270017AA7B /* DrawController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawController.h; sourceTree = "<group>"; };
+		35A548E1223235270017AA7B /* DrawController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawController.m; sourceTree = "<group>"; };
+		35A548E3223254340017AA7B /* TestDrawController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDrawController.h; sourceTree = "<group>"; };
+		35A548E4223254340017AA7B /* TestDrawController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDrawController.m; sourceTree = "<group>"; };
+		35A548E7223256FE0017AA7B /* Quartz2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quartz2D.h; sourceTree = "<group>"; };
+		35A548E8223256FE0017AA7B /* Quartz2D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2D.m; sourceTree = "<group>"; };
+		35A548EA2232585F0017AA7B /* XZDrawController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZDrawController.h; sourceTree = "<group>"; };
+		35A548EB2232585F0017AA7B /* XZDrawController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZDrawController.m; sourceTree = "<group>"; };
 		3DAA84B20E99A4E9FBF24B78 /* Pods-DemoPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FC2137E3E1919B06EAEE9 /* Pods-DemoPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -297,6 +309,8 @@
 		35A54892222E7C7F0017AA7B /* XMG_Practices */ = {
 			isa = PBXGroup;
 			children = (
+				35A548E6223256E90017AA7B /* Quartz2D */,
+				35A548DF2232351B0017AA7B /* Draw */,
 				355AADA822314A5C00DAC3DC /* TableView */,
 				35A548D3223112D50017AA7B /* Gesture */,
 				35A548CF223109530017AA7B /* Transform */,
@@ -427,6 +441,28 @@
 				35A548DB223113FF0017AA7B /* RedView.m */,
 			);
 			path = Gesture;
+			sourceTree = "<group>";
+		};
+		35A548DF2232351B0017AA7B /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				35A548E0223235270017AA7B /* DrawController.h */,
+				35A548E1223235270017AA7B /* DrawController.m */,
+				35A548EA2232585F0017AA7B /* XZDrawController.h */,
+				35A548EB2232585F0017AA7B /* XZDrawController.m */,
+				35A548E3223254340017AA7B /* TestDrawController.h */,
+				35A548E4223254340017AA7B /* TestDrawController.m */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		35A548E6223256E90017AA7B /* Quartz2D */ = {
+			isa = PBXGroup;
+			children = (
+				35A548E7223256FE0017AA7B /* Quartz2D.h */,
+				35A548E8223256FE0017AA7B /* Quartz2D.m */,
+			);
+			path = Quartz2D;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -595,6 +631,7 @@
 				35A54863222CB18F0017AA7B /* MainPage.m in Sources */,
 				35A548A4222F63E00017AA7B /* TransDict.m in Sources */,
 				35A548DC223113FF0017AA7B /* RedView.m in Sources */,
+				35A548EC2232585F0017AA7B /* XZDrawController.m in Sources */,
 				35A548CB2230DB050017AA7B /* KutilManager.m in Sources */,
 				35A548C72230D9240017AA7B /* NaviDemo.m in Sources */,
 				35A54891222E5A650017AA7B /* PersonModel.m in Sources */,
@@ -603,11 +640,14 @@
 				35A5486E222CBB290017AA7B /* ConstArray.m in Sources */,
 				351492A322315D4C00D32546 /* WineModel.m in Sources */,
 				35A548BE2230B8E10017AA7B /* SandBox.m in Sources */,
+				35A548E2223235270017AA7B /* DrawController.m in Sources */,
 				35A54871222CBD100017AA7B /* ConstDictionary.m in Sources */,
 				35A548A0222F5AF60017AA7B /* MainPageModel.m in Sources */,
 				35A54899222E7D120017AA7B /* BasicViewController.m in Sources */,
 				35A548A7222F64A60017AA7B /* Person.m in Sources */,
+				35A548E9223256FE0017AA7B /* Quartz2D.m in Sources */,
 				35A5483F222CB0E40017AA7B /* main.m in Sources */,
+				35A548E5223254340017AA7B /* TestDrawController.m in Sources */,
 				35A5487F222D03C70017AA7B /* XZCornerRadius.m in Sources */,
 				35A548B82230AA470017AA7B /* TransValueNext.m in Sources */,
 				35A54831222CB0E30017AA7B /* AppDelegate.m in Sources */,

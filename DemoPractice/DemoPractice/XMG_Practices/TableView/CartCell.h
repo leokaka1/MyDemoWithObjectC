@@ -27,9 +27,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) IBOutlet UILabel *itemCountLabel;
 
+@property (weak, nonatomic) IBOutlet UIButton *plusButton;
+
+@property (weak, nonatomic) IBOutlet UIButton *minusButton;
+
 @property (nonatomic,strong) WineModel *model;
 
 @property (nonatomic,strong) id<cellDelegate> delegate;
+
 
 @end
 
