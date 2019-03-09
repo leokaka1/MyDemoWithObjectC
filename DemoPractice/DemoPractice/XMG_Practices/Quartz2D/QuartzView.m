@@ -23,9 +23,14 @@
 //    [self drawRect];
     
 //    画椭圆
-    [self drawOral];
+//    [self drawOral];
     
 }
+
+
+//-(void)pictureDown{
+//    uiimag
+//}
 
 -(void)drawRect{
     CGContextRef ref = UIGraphicsGetCurrentContext();
@@ -39,10 +44,11 @@
 }
 
 -(void)drawOral{
-    CGContextRef ref = UIGraphicsGetCurrentContext();
+//    CGContextRef ref = UIGraphicsGetCurrentContext();
     UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(50, 50, 100, 200)];
-    CGContextAddPath(ref, path.CGPath);
-    CGContextStrokePath(ref);
+    [path stroke];
+//    CGContextAddPath(ref, path.CGPath);
+//    CGContextStrokePath(ref);
 }
 
 
