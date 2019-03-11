@@ -60,6 +60,7 @@
 		35A5490F223601AA0017AA7B /* RotationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A5490E223601AA0017AA7B /* RotationController.m */; };
 		35A54911223602720017AA7B /* Rotation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A54910223602720017AA7B /* Rotation.storyboard */; };
 		35A54913223608F90017AA7B /* WheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35A54912223608F90017AA7B /* WheelView.xib */; };
+		35A54916223632BC0017AA7B /* WheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54915223632BC0017AA7B /* WheelView.m */; };
 		B0A632975F0F80770F8AF699 /* libPods-DemoPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */; };
 /* End PBXBuildFile section */
 
@@ -184,6 +185,8 @@
 		35A5490E223601AA0017AA7B /* RotationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationController.m; sourceTree = "<group>"; };
 		35A54910223602720017AA7B /* Rotation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rotation.storyboard; sourceTree = "<group>"; };
 		35A54912223608F90017AA7B /* WheelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WheelView.xib; sourceTree = "<group>"; };
+		35A54914223632BC0017AA7B /* WheelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WheelView.h; sourceTree = "<group>"; };
+		35A54915223632BC0017AA7B /* WheelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelView.m; sourceTree = "<group>"; };
 		3DAA84B20E99A4E9FBF24B78 /* Pods-DemoPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FC2137E3E1919B06EAEE9 /* Pods-DemoPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -521,6 +524,8 @@
 				35A5490B223518E80017AA7B /* CAAnimationController.m */,
 				35A5490D223601AA0017AA7B /* RotationController.h */,
 				35A5490E223601AA0017AA7B /* RotationController.m */,
+				35A54914223632BC0017AA7B /* WheelView.h */,
+				35A54915223632BC0017AA7B /* WheelView.m */,
 				35A54912223608F90017AA7B /* WheelView.xib */,
 				35A54910223602720017AA7B /* Rotation.storyboard */,
 			);
@@ -722,6 +727,7 @@
 				35A548F82234B67F0017AA7B /* DrawPictureAndText.m in Sources */,
 				35A548B82230AA470017AA7B /* TransValueNext.m in Sources */,
 				35A54831222CB0E30017AA7B /* AppDelegate.m in Sources */,
+				35A54916223632BC0017AA7B /* WheelView.m in Sources */,
 				35A548AA222F64B10017AA7B /* Dog.m in Sources */,
 				35A548FF2234F9730017AA7B /* GestureLock.m in Sources */,
 				35A54874222CC3AC0017AA7B /* CollectionViewPractice.m in Sources */,
