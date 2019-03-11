@@ -7,10 +7,12 @@
 //
 
 #import "CAAnimationController.h"
+#import "RotationController.h"
 
 @interface CAAnimationController ()
 
 @property(strong,nonatomic) UIView *redView;
+@property(strong,nonatomic) UIImageView *pictureImageView;
 
 @end
 
@@ -23,35 +25,71 @@
     _redView = [[UIView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     _redView.backgroundColor = [UIColor redColor];
     [self.view addSubview:_redView];
+    
+    _pictureImageView = [[UIImageView alloc]init];
+    _pictureImageView.frame = CGRectMake(0, 0, 300, 300);
+    _pictureImageView.center = self.view.center;
+    _pictureImageView.image = [UIImage imageNamed:@"0"];
+    [self.view addSubview:_pictureImageView];
+    
+    
+    UIButton *jumpButton = [[UIButton alloc]init];
+    jumpButton.frame = CGRectMake(100, 500, 100, 40);
+    [jumpButton setTitle:@"跳转去转盘" forState:UIControlStateNormal];
+    [jumpButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [jumpButton addTarget:self action:@selector(jumpToRotate) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:jumpButton];
+}
 
+-(void)jumpToRotate{
+//    RotationController *rotate = [[RotationController alloc]init];
+//    [self.navigationController pushViewController:rotate animated:true];
+    UIStoryboard *sb  = [UIStoryboard storyboardWithName:@"Rotation" bundle:nil];
+    RotationController *rotate =  [sb instantiateViewControllerWithIdentifier: @"rotate"];
+    [self.navigationController pushViewController:rotate animated:true];
+}
+
+static int _count = 0;
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    _count++;
+    if (_count > 4) {
+        _count = 0;
+    }
+    self.pictureImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%d",_count]];
+    
+    CATransition *trans = [CATransition animation];
+    trans.type = @"fade";
+    trans.duration = 1.0;
+    [self.pictureImageView.layer addAnimation:trans forKey:kCATransition];
+    NSLog(@"123");
     
 }
 
+-(void)singleAnimation{
+    //    CATransition *trans = [CATransition animation];
+    //    trans.type = kCATransitionMoveIn;
+    //    trans.subtype = kCATransitionFromTop
+    //    CABasicAnimation *basicAnimation = [CABasicAnimation animation];
+    //    basicAnimation.keyPath = @"position.y";
+    //    basicAnimation.toValue = @(400);
+    ////    不要删除状态
+    //    basicAnimation.removedOnCompletion = false;
+    ////    c保持最后的状态
+    //    basicAnimation.fillMode = kCAFillModeForwards;
+    
+    //    [self.redView.layer addAnimation:basicAnimation forKey:@"anim1"];
+}
 
-
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
-//    CATransition *trans = [CATransition animation];
-//    trans.type = kCATransitionMoveIn;
-//    trans.subtype = kCATransitionFromTop
-//    CABasicAnimation *basicAnimation = [CABasicAnimation animation];
-//    basicAnimation.keyPath = @"position.y";
-//    basicAnimation.toValue = @(400);
-////    不要删除状态
-//    basicAnimation.removedOnCompletion = false;
-////    c保持最后的状态
-//    basicAnimation.fillMode = kCAFillModeForwards;
-    
-//    [self.redView.layer addAnimation:basicAnimation forKey:@"anim1"];
-    
-// 组动画
+-(void)groupAnimation{
+    // 组动画
     CABasicAnimation *animation = [CABasicAnimation animation];
     animation.keyPath = @"position.y";
     animation.toValue = @(300);
-//    animation.duration = 0.4;
-//    animation.removedOnCompletion = NO;
-//    animation.fillMode = kCAFillModeForwards;
-//    [self.redView.layer addAnimation:animation forKey:@"animation"];
+    //    animation.duration = 0.4;
+    //    animation.removedOnCompletion = NO;
+    //    animation.fillMode = kCAFillModeForwards;
+    //    [self.redView.layer addAnimation:animation forKey:@"animation"];
     
     CABasicAnimation *animation1 = [CABasicAnimation animation];
     animation1.keyPath = @"transform.scale";
@@ -63,8 +101,5 @@
     group.duration = 0.4;
     group.removedOnCompletion = false;
     [self.redView.layer addAnimation:group forKey:@"animation"];
-    
 }
-
-
 @end
