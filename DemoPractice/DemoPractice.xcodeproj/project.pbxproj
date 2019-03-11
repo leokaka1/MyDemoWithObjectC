@@ -52,6 +52,11 @@
 		35A548EC2232585F0017AA7B /* XZDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548EB2232585F0017AA7B /* XZDrawController.m */; };
 		35A548EF223262BC0017AA7B /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548EE223262BC0017AA7B /* QuartzView.m */; };
 		35A548F22233B8DD0017AA7B /* PictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548F12233B8DD0017AA7B /* PictureView.m */; };
+		35A548F82234B67F0017AA7B /* DrawPictureAndText.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548F72234B67F0017AA7B /* DrawPictureAndText.m */; };
+		35A548FF2234F9730017AA7B /* GestureLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A548FD2234F9720017AA7B /* GestureLock.m */; };
+		35A549022234FA0A0017AA7B /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A549012234FA0A0017AA7B /* LockView.m */; };
+		35A549082234FC1F0017AA7B /* BgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A549072234FC1F0017AA7B /* BgView.m */; };
+		35A5490C223518E80017AA7B /* CAAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A5490B223518E80017AA7B /* CAAnimationController.m */; };
 		B0A632975F0F80770F8AF699 /* libPods-DemoPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */; };
 /* End PBXBuildFile section */
 
@@ -162,6 +167,16 @@
 		35A548EE223262BC0017AA7B /* QuartzView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
 		35A548F02233B8DD0017AA7B /* PictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureView.h; sourceTree = "<group>"; };
 		35A548F12233B8DD0017AA7B /* PictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureView.m; sourceTree = "<group>"; };
+		35A548F62234B67F0017AA7B /* DrawPictureAndText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawPictureAndText.h; sourceTree = "<group>"; };
+		35A548F72234B67F0017AA7B /* DrawPictureAndText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPictureAndText.m; sourceTree = "<group>"; };
+		35A548FD2234F9720017AA7B /* GestureLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureLock.m; sourceTree = "<group>"; };
+		35A548FE2234F9720017AA7B /* GestureLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureLock.h; sourceTree = "<group>"; };
+		35A549002234FA0A0017AA7B /* LockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		35A549012234FA0A0017AA7B /* LockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
+		35A549062234FC1F0017AA7B /* BgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BgView.h; sourceTree = "<group>"; };
+		35A549072234FC1F0017AA7B /* BgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BgView.m; sourceTree = "<group>"; };
+		35A5490A223518E80017AA7B /* CAAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAAnimationController.h; sourceTree = "<group>"; };
+		35A5490B223518E80017AA7B /* CAAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAAnimationController.m; sourceTree = "<group>"; };
 		3DAA84B20E99A4E9FBF24B78 /* Pods-DemoPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FC2137E3E1919B06EAEE9 /* Pods-DemoPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -315,6 +330,7 @@
 		35A54892222E7C7F0017AA7B /* XMG_Practices */ = {
 			isa = PBXGroup;
 			children = (
+				35A54909223518D90017AA7B /* CAAnimation */,
 				35A548E6223256E90017AA7B /* Quartz2D */,
 				35A548DF2232351B0017AA7B /* Draw */,
 				355AADA822314A5C00DAC3DC /* TableView */,
@@ -465,14 +481,39 @@
 		35A548E6223256E90017AA7B /* Quartz2D */ = {
 			isa = PBXGroup;
 			children = (
+				35A548FC2234F9720017AA7B /* GestureLock */,
 				35A548E7223256FE0017AA7B /* Quartz2D.h */,
 				35A548E8223256FE0017AA7B /* Quartz2D.m */,
 				35A548F02233B8DD0017AA7B /* PictureView.h */,
 				35A548F12233B8DD0017AA7B /* PictureView.m */,
 				35A548ED223262BC0017AA7B /* QuartzView.h */,
 				35A548EE223262BC0017AA7B /* QuartzView.m */,
+				35A548F62234B67F0017AA7B /* DrawPictureAndText.h */,
+				35A548F72234B67F0017AA7B /* DrawPictureAndText.m */,
 			);
 			path = Quartz2D;
+			sourceTree = "<group>";
+		};
+		35A548FC2234F9720017AA7B /* GestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				35A548FE2234F9720017AA7B /* GestureLock.h */,
+				35A548FD2234F9720017AA7B /* GestureLock.m */,
+				35A549062234FC1F0017AA7B /* BgView.h */,
+				35A549072234FC1F0017AA7B /* BgView.m */,
+				35A549002234FA0A0017AA7B /* LockView.h */,
+				35A549012234FA0A0017AA7B /* LockView.m */,
+			);
+			path = GestureLock;
+			sourceTree = "<group>";
+		};
+		35A54909223518D90017AA7B /* CAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				35A5490A223518E80017AA7B /* CAAnimationController.h */,
+				35A5490B223518E80017AA7B /* CAAnimationController.m */,
+			);
+			path = CAAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -634,11 +675,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A5490C223518E80017AA7B /* CAAnimationController.m in Sources */,
 				35A548CE2230EAF20017AA7B /* UINavigationBar+transBar.m in Sources */,
+				35A549022234FA0A0017AA7B /* LockView.m in Sources */,
 				35A54895222E7C970017AA7B /* XMG_MainView.m in Sources */,
 				35A54882222D0B130017AA7B /* MainPage+OtherFunction.m in Sources */,
 				35A548B1222F787A0017AA7B /* UIBasic.m in Sources */,
 				35A54863222CB18F0017AA7B /* MainPage.m in Sources */,
+				35A549082234FC1F0017AA7B /* BgView.m in Sources */,
 				35A548A4222F63E00017AA7B /* TransDict.m in Sources */,
 				35A548DC223113FF0017AA7B /* RedView.m in Sources */,
 				35A548EC2232585F0017AA7B /* XZDrawController.m in Sources */,
@@ -661,9 +705,11 @@
 				35A5483F222CB0E40017AA7B /* main.m in Sources */,
 				35A548E5223254340017AA7B /* TestDrawController.m in Sources */,
 				35A5487F222D03C70017AA7B /* XZCornerRadius.m in Sources */,
+				35A548F82234B67F0017AA7B /* DrawPictureAndText.m in Sources */,
 				35A548B82230AA470017AA7B /* TransValueNext.m in Sources */,
 				35A54831222CB0E30017AA7B /* AppDelegate.m in Sources */,
 				35A548AA222F64B10017AA7B /* Dog.m in Sources */,
+				35A548FF2234F9730017AA7B /* GestureLock.m in Sources */,
 				35A54874222CC3AC0017AA7B /* CollectionViewPractice.m in Sources */,
 				35A548B52230A8AC0017AA7B /* TransValue.m in Sources */,
 				35A548D22231098D0017AA7B /* TransForm.m in Sources */,

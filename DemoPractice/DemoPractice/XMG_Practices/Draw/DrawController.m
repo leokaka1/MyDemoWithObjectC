@@ -91,6 +91,7 @@
 //    设置缩小比例
     CGFloat scale = self.mainView.frame.origin.x *0.3 / kScreenWidth;
     scale = 1-scale;
+    
     self.mainView.transform = CGAffineTransformMakeScale(scale, scale);
 }
 

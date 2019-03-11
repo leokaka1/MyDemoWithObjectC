@@ -74,10 +74,17 @@ static NSString *identifier = @"BasicCell";
     Class class = NSClassFromString(self.controllerArr[indexPath.row]);
     UIViewController *destVC = [[class alloc]init];
     
+//    动画
+    CATransition *trans = [CATransition animation];
+    trans.type = @"pageCurl";
+    trans.subtype = kCATransitionFromTop;
+    trans.duration = 0.4;
+    
     if ([destVC isMemberOfClass:[XZDrawController class]]) {
         [self presentViewController:destVC animated:true completion:nil];
     }else{
-        [self.navigationController pushViewController:destVC animated:true];
+        [self.navigationController.view.layer addAnimation:trans forKey:kCATransition];
+        [self.navigationController pushViewController:destVC animated:NO];
     }
     
 }
