@@ -22,7 +22,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    _redView = [[UIView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    _redView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+    _redView.layer.anchorPoint  = CGPointMake(0, 0);
+    _redView.layer.position = CGPointMake(0, 64);
     _redView.backgroundColor = [UIColor redColor];
     [self.view addSubview:_redView];
     
@@ -30,6 +32,8 @@
     _pictureImageView.frame = CGRectMake(0, 0, 300, 300);
     _pictureImageView.center = self.view.center;
     _pictureImageView.image = [UIImage imageNamed:@"0"];
+//    只显示图片的一半
+    _pictureImageView.layer.contentsRect = CGRectMake(0, 0, 1, 0.5);
     [self.view addSubview:_pictureImageView];
     
     

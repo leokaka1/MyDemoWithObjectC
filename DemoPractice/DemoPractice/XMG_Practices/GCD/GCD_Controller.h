@@ -1,8 +1,8 @@
 //
-//  WheelView.h
+//  GCD_Controller.h
 //  DemoPractice
 //
-//  Created by Leon on 2019/3/11.
+//  Created by Leon on 2019/3/12.
 //  Copyright © 2019 Leon 笑 竹. All rights reserved.
 //
 
@@ -10,14 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WheelView : UIView
-
-
-
-
-+(instancetype)wheelView;
--(void)startRotation;
--(void)stopRotation;
+@interface GCD_Controller : UIViewController
 
 @end
 

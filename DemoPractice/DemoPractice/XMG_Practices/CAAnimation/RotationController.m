@@ -12,6 +12,8 @@
 
 @interface RotationController ()
 
+@property(strong,nonatomic) WheelView *wheelView;
+
 @end
 
 @implementation RotationController
@@ -23,13 +25,18 @@
 //    WheelView *wheelView = [WheelView wheelView];
     WheelView *wheelView = [[WheelView alloc]init];
     wheelView.center = self.view.center;
+    self.wheelView = wheelView;
     [self.view addSubview:wheelView];
 }
 
+
+
 - (IBAction)startRotate:(UIButton *)sender {
+    [self.wheelView startRotation];
 }
 
 - (IBAction)stopRotate:(UIButton *)sender {
+    [self.wheelView stopRotation];
 }
 
 

@@ -1,5 +1,5 @@
 //
-//  WheelView.h
+//  CustomButton.h
 //  DemoPractice
 //
 //  Created by Leon on 2019/3/11.
@@ -10,14 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WheelView : UIView
-
-
-
-
-+(instancetype)wheelView;
--(void)startRotation;
--(void)stopRotation;
+@interface CustomButton : UIButton
 
 @end
 
