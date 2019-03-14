@@ -11,5 +11,6 @@
 
 #import "XZ_RootTool.h"
 #import "XZ_SaveTool.h"
+#import "Marco.h"
 
 #endif /* XZ_Tools_h */

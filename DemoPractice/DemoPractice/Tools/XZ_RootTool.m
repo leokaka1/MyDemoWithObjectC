@@ -16,7 +16,8 @@
 +(UIViewController *)chooseRootVC{
     UIViewController *destVc = [[UIViewController alloc]init];
 //    获取当前的版本
-    NSString *curVersion = [NSBundle mainBundle].infoDictionary[@"CFBundleShortVersionString"];
+    NSString *curVersion = kCurrentVersion;
+//    NSLog(@"%@",kCurrentVersion);
     
 //    取出之前存储的版本
     NSString *preVersion = [XZ_SaveTool objectForKey:kVersion];

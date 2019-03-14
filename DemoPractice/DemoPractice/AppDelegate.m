@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XZ_RootTool.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    UIViewController *vc =  [XZ_RootTool chooseRootVC];
+    
     return YES;
 }
 

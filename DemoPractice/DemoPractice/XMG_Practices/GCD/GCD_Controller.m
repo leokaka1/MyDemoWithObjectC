@@ -7,10 +7,13 @@
 //
 
 #import "GCD_Controller.h"
+#import <os/lock.h>
 
 @interface GCD_Controller ()
 
 @property(assign,nonatomic) int count;
+@property(strong,nonatomic) NSRecursiveLock *rsLock;
+@property(assign,nonatomic) os_unfair_lock  lock;
 
 @end
 
@@ -18,9 +21,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.lock = OS_UNFAIR_LOCK_INIT;
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"GCD";
-    self.count = 30;
+    self.count = 50;
 //    [self test1];
 //    [self test2];
 //    [self test3];
@@ -153,38 +157,66 @@
 
 //线程锁
 -(void)test6{
+//    新的取代自旋锁的方案
+//    os_unfair_lock lock = OS_UNFAIR_LOCK_INIT;
+    
 //    卖票的例子
     dispatch_queue_t queue = dispatch_get_global_queue(0, 0 );
     dispatch_async(queue, ^{
-        for (int i = 0; i<3; i++) {
-            [self saleTicket];
-        }
+        [self saleTicket];
     });
     
     dispatch_async(queue, ^{
-        for (int i = 0; i<3; i++) {
-            [self saleTicket];
-        }
+        [self saleTicket];
+    });
+    
+    dispatch_async(queue, ^{
+        [self saleTicket];
+    });
+    
+    dispatch_async(queue, ^{
+        [self saleTicket];
+    });
+    
+    dispatch_async(queue, ^{
+        [self saleTicket];
     });
     
 }
 
 -(void)saleTicket{
+
+//    关键字锁
+//    @synchronized (self) {
+//        while (1) {
+//            [NSThread sleepForTimeInterval:1];
+//            if (self.count > 0 ) {
+//                _count--;
+//                NSLog(@"票剩余---%d",_count);
+//            }else{
+//                NSLog(@"票卖完了");
+//                break;
+//            }
+//        }
+//    }
     
-    @synchronized (self) {
-        while (1) {
-            [NSThread sleepForTimeInterval:1];
-            if (self.count > 0 ) {
-                _count--;
-                NSLog(@"票剩余---%d",_count);
-            }else{
-                NSLog(@"票卖完了");
-                break;
-            }
+    //    递归锁
+//    _rsLock = [[NSRecursiveLock alloc]init];
+
+    while (1) {
+        [NSThread sleepForTimeInterval:1];
+        //        [self.rsLock lock];
+        os_unfair_lock_lock(&self->_lock);
+        if (self.count > 0 ) {
+            _count--;
+            NSLog(@"票剩余---%d,线程----%@",_count,[NSThread currentThread]);
+        }else{
+            NSLog(@"票卖完了,Thread:%@",[NSThread currentThread]);
+            break;
         }
+        //        [self.rsLock unlock];
+        os_unfair_lock_unlock(&self->_lock);
     }
-    
-    
 }
 
 @end
