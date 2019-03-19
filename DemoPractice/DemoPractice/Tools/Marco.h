@@ -128,6 +128,42 @@
 //清除背景色
 #define CLEARCOLOR [UIColor clearColor]
 
+//常用颜色
+#define Color_Red [UIColor redColor]
+#define Color_White        [UIColor whiteColor]
+#define Color_Line_Color [UIColor colorWithRed:235/255.0 green:235/255.0 blue:235/255.0 alpha:1]
+#define Color_Black        [UIColor blackColor]
+#define Color_Gray         [UIColor grayColor]
+#define Color_Gray_Light   [UIColor lightGrayColor]
+#define Color_Gray_Dark    [UIColor darkGrayColor]
+#define Color_Yellow       [UIColor yellowColor]
+#define Color_Green        [UIColor greenColor]
+#define Color_Blue         [UIColor blueColor]
+
+//7.设置 view 圆角和边框
+#define LRViewBorderRadius(View, Radius, Width, Color)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES];\
+[View.layer setBorderWidth:(Width)];\
+[View.layer setBorderColor:[Color CGColor]]
+
+//获取图片资源
+#define kGetImage(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+
+//字体
+#define BFONT(a) ([UIFont boldSystemFontOfSize:(a)])
+#define FONT(a) ([UIFont systemFontOfSize:(a)])
+
+//关于日期
+#define NSDATE_FORMAT_NORMAL    @"yyyy-MM-dd HH:mm:ss"
+#define NSDATE_FORMAT_NORMAL_1  @"yyyy/MM/dd HH:mm:ss"
+#define NSDATE_FORMAT_DATE      @"yyyy-MM-dd"
+#define NSDATE_FORMAT_DATE_1    @"yyyy/MM/dd"
+#define NSDATE_FORMAT_TIME      @"HH:mm:ss"
+#define NSDATE_FORMAT_DATE_2      @"yyyyMMdd"
+#define NSDATE_FORMAT_DATE_3      @"yyyy年MM月dd日"
+#define NSDATE_FORMAT_NORMAL2    @"yyyy-MM-dd HH:mm"
 
 //DEBUG  模式下打印日志,当前行
 #ifdef DEBUG

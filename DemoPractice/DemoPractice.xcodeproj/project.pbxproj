@@ -75,6 +75,21 @@
 		35E9C6A4223A35C5006C7649 /* WaterFall.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6A3223A35C5006C7649 /* WaterFall.m */; };
 		35E9C6A6223A479E006C7649 /* shop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35E9C6A5223A479D006C7649 /* shop.plist */; };
 		35E9C6A9223A47FF006C7649 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6A8223A47FF006C7649 /* ImageModel.m */; };
+		35E9C6AD223B337B006C7649 /* RunTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6AC223B337B006C7649 /* RunTimeController.m */; };
+		35E9C6B0223B359B006C7649 /* RuntimePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6AF223B359B006C7649 /* RuntimePerson.m */; };
+		35E9C6B3223B3AD9006C7649 /* RunTimeDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6B2223B3AD9006C7649 /* RunTimeDog.m */; };
+		35E9C6B6223B3CFE006C7649 /* RuntimePerson+Play.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6B5223B3CFE006C7649 /* RuntimePerson+Play.m */; };
+		35E9C6BA223B766E006C7649 /* RequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6B9223B766E006C7649 /* RequestController.m */; };
+		35E9C6CA223B97EE006C7649 /* NSDictionary+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6C8223B97ED006C7649 /* NSDictionary+Ext.m */; };
+		35E9C6CD223B9DE3006C7649 /* DishModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6CC223B9DE3006C7649 /* DishModel.m */; };
+		35E9C6D0223B9E46006C7649 /* StepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6CF223B9E46006C7649 /* StepModel.m */; };
+		35E9C6D4223F35A0006C7649 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6D3223F35A0006C7649 /* WebViewController.m */; };
+		35E9C6D8223F6CAF006C7649 /* RACController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6D7223F6CAF006C7649 /* RACController.m */; };
+		35E9C6DB223F7073006C7649 /* XZ_AnimationAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6D9223F7072006C7649 /* XZ_AnimationAlertView.m */; };
+		35E9C6E1223F7697006C7649 /* UIButton+customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6E0223F7697006C7649 /* UIButton+customer.m */; };
+		35E9C6E4223F842C006C7649 /* UITextField+customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6E3223F842C006C7649 /* UITextField+customer.m */; };
+		35E9C6E7223F90A1006C7649 /* TestRAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6E6223F90A1006C7649 /* TestRAC.m */; };
+		35E9C6EA223F9491006C7649 /* TestRACView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6E9223F9491006C7649 /* TestRACView.m */; };
 		B0A632975F0F80770F8AF699 /* libPods-DemoPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */; };
 /* End PBXBuildFile section */
 
@@ -228,6 +243,37 @@
 		35E9C6A5223A479D006C7649 /* shop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shop.plist; sourceTree = "<group>"; };
 		35E9C6A7223A47FF006C7649 /* ImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
 		35E9C6A8223A47FF006C7649 /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
+		35E9C6AB223B337B006C7649 /* RunTimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeController.h; sourceTree = "<group>"; };
+		35E9C6AC223B337B006C7649 /* RunTimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeController.m; sourceTree = "<group>"; };
+		35E9C6AE223B359B006C7649 /* RuntimePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimePerson.h; sourceTree = "<group>"; };
+		35E9C6AF223B359B006C7649 /* RuntimePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimePerson.m; sourceTree = "<group>"; };
+		35E9C6B1223B3AD9006C7649 /* RunTimeDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeDog.h; sourceTree = "<group>"; };
+		35E9C6B2223B3AD9006C7649 /* RunTimeDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeDog.m; sourceTree = "<group>"; };
+		35E9C6B4223B3CFE006C7649 /* RuntimePerson+Play.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RuntimePerson+Play.h"; sourceTree = "<group>"; };
+		35E9C6B5223B3CFE006C7649 /* RuntimePerson+Play.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RuntimePerson+Play.m"; sourceTree = "<group>"; };
+		35E9C6B8223B766E006C7649 /* RequestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestController.h; sourceTree = "<group>"; };
+		35E9C6B9223B766E006C7649 /* RequestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestController.m; sourceTree = "<group>"; };
+		35E9C6C7223B96DD006C7649 /* Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		35E9C6C8223B97ED006C7649 /* NSDictionary+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Ext.m"; sourceTree = "<group>"; };
+		35E9C6C9223B97EE006C7649 /* NSDictionary+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Ext.h"; sourceTree = "<group>"; };
+		35E9C6CB223B9DE3006C7649 /* DishModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DishModel.h; sourceTree = "<group>"; };
+		35E9C6CC223B9DE3006C7649 /* DishModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DishModel.m; sourceTree = "<group>"; };
+		35E9C6CE223B9E46006C7649 /* StepModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepModel.h; sourceTree = "<group>"; };
+		35E9C6CF223B9E46006C7649 /* StepModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepModel.m; sourceTree = "<group>"; };
+		35E9C6D2223F35A0006C7649 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		35E9C6D3223F35A0006C7649 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		35E9C6D6223F6CAF006C7649 /* RACController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACController.h; sourceTree = "<group>"; };
+		35E9C6D7223F6CAF006C7649 /* RACController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACController.m; sourceTree = "<group>"; };
+		35E9C6D9223F7072006C7649 /* XZ_AnimationAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZ_AnimationAlertView.m; sourceTree = "<group>"; };
+		35E9C6DA223F7072006C7649 /* XZ_AnimationAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZ_AnimationAlertView.h; sourceTree = "<group>"; };
+		35E9C6DF223F7697006C7649 /* UIButton+customer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+customer.h"; sourceTree = "<group>"; };
+		35E9C6E0223F7697006C7649 /* UIButton+customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+customer.m"; sourceTree = "<group>"; };
+		35E9C6E2223F842C006C7649 /* UITextField+customer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+customer.h"; sourceTree = "<group>"; };
+		35E9C6E3223F842C006C7649 /* UITextField+customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+customer.m"; sourceTree = "<group>"; };
+		35E9C6E5223F90A1006C7649 /* TestRAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRAC.h; sourceTree = "<group>"; };
+		35E9C6E6223F90A1006C7649 /* TestRAC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRAC.m; sourceTree = "<group>"; };
+		35E9C6E8223F9491006C7649 /* TestRACView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRACView.h; sourceTree = "<group>"; };
+		35E9C6E9223F9491006C7649 /* TestRACView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACView.m; sourceTree = "<group>"; };
 		3DAA84B20E99A4E9FBF24B78 /* Pods-DemoPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FC2137E3E1919B06EAEE9 /* Pods-DemoPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -382,6 +428,10 @@
 		35A54892222E7C7F0017AA7B /* XMG_Practices */ = {
 			isa = PBXGroup;
 			children = (
+				35E9C6D5223F6CA1006C7649 /* RAC */,
+				35E9C6D1223F358C006C7649 /* WebView */,
+				35E9C6B7223B765A006C7649 /* Request */,
+				35E9C6AA223B336A006C7649 /* Runtime */,
 				35E9C6902239FDBA006C7649 /* UICollectionView */,
 				35E9C60D2237B245006C7649 /* GCD */,
 				35A54909223518D90017AA7B /* CAAnimation */,
@@ -474,6 +524,13 @@
 				35E9C5FD2237878A006C7649 /* UIView+frame.m */,
 				35E9C60A22379705006C7649 /* UIColor+Category.h */,
 				35E9C60B22379705006C7649 /* UIColor+Category.m */,
+				35E9C6C9223B97EE006C7649 /* NSDictionary+Ext.h */,
+				35E9C6C8223B97ED006C7649 /* NSDictionary+Ext.m */,
+				35E9C6DF223F7697006C7649 /* UIButton+customer.h */,
+				35E9C6E0223F7697006C7649 /* UIButton+customer.m */,
+				35E9C6E2223F842C006C7649 /* UITextField+customer.h */,
+				35E9C6E3223F842C006C7649 /* UITextField+customer.m */,
+				35E9C6C7223B96DD006C7649 /* Category.h */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -588,6 +645,8 @@
 			isa = PBXGroup;
 			children = (
 				35A54865222CB2580017AA7B /* Marco.h */,
+				35E9C6DA223F7072006C7649 /* XZ_AnimationAlertView.h */,
+				35E9C6D9223F7072006C7649 /* XZ_AnimationAlertView.m */,
 				35E9C60322378E2E006C7649 /* XZ_RootTool.h */,
 				35E9C60422378E2E006C7649 /* XZ_RootTool.m */,
 				35E9C60622378F8D006C7649 /* XZ_SaveTool.h */,
@@ -624,6 +683,56 @@
 			path = UICollectionView;
 			sourceTree = "<group>";
 		};
+		35E9C6AA223B336A006C7649 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				35E9C6AB223B337B006C7649 /* RunTimeController.h */,
+				35E9C6AC223B337B006C7649 /* RunTimeController.m */,
+				35E9C6AE223B359B006C7649 /* RuntimePerson.h */,
+				35E9C6AF223B359B006C7649 /* RuntimePerson.m */,
+				35E9C6B4223B3CFE006C7649 /* RuntimePerson+Play.h */,
+				35E9C6B5223B3CFE006C7649 /* RuntimePerson+Play.m */,
+				35E9C6B1223B3AD9006C7649 /* RunTimeDog.h */,
+				35E9C6B2223B3AD9006C7649 /* RunTimeDog.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		35E9C6B7223B765A006C7649 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				35E9C6B8223B766E006C7649 /* RequestController.h */,
+				35E9C6B9223B766E006C7649 /* RequestController.m */,
+				35E9C6CB223B9DE3006C7649 /* DishModel.h */,
+				35E9C6CC223B9DE3006C7649 /* DishModel.m */,
+				35E9C6CE223B9E46006C7649 /* StepModel.h */,
+				35E9C6CF223B9E46006C7649 /* StepModel.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		35E9C6D1223F358C006C7649 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				35E9C6D2223F35A0006C7649 /* WebViewController.h */,
+				35E9C6D3223F35A0006C7649 /* WebViewController.m */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		35E9C6D5223F6CA1006C7649 /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				35E9C6D6223F6CAF006C7649 /* RACController.h */,
+				35E9C6D7223F6CAF006C7649 /* RACController.m */,
+				35E9C6E8223F9491006C7649 /* TestRACView.h */,
+				35E9C6E9223F9491006C7649 /* TestRACView.m */,
+				35E9C6E5223F90A1006C7649 /* TestRAC.h */,
+				35E9C6E6223F90A1006C7649 /* TestRAC.m */,
+			);
+			path = RAC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -635,6 +744,7 @@
 				35A54828222CB0E20017AA7B /* Sources */,
 				35A54829222CB0E20017AA7B /* Frameworks */,
 				35A5482A222CB0E20017AA7B /* Resources */,
+				B72D935D97BB850C4A6D0E4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -780,6 +890,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B72D935D97BB850C4A6D0E4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -787,33 +919,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E9C6CA223B97EE006C7649 /* NSDictionary+Ext.m in Sources */,
 				35A5490C223518E80017AA7B /* CAAnimationController.m in Sources */,
 				35E9C60C22379705006C7649 /* UIColor+Category.m in Sources */,
 				35A548CE2230EAF20017AA7B /* UINavigationBar+transBar.m in Sources */,
 				35A549022234FA0A0017AA7B /* LockView.m in Sources */,
 				35A54895222E7C970017AA7B /* XMG_MainView.m in Sources */,
+				35E9C6D4223F35A0006C7649 /* WebViewController.m in Sources */,
 				35E9C6962239FDF7006C7649 /* ImageLayout.m in Sources */,
+				35E9C6E4223F842C006C7649 /* UITextField+customer.m in Sources */,
 				35A54882222D0B130017AA7B /* MainPage+OtherFunction.m in Sources */,
 				35A548B1222F787A0017AA7B /* UIBasic.m in Sources */,
 				35E9C60822378F8D006C7649 /* XZ_SaveTool.m in Sources */,
 				35A54863222CB18F0017AA7B /* MainPage.m in Sources */,
 				35E9C6A1223A34CA006C7649 /* EWWaterFallLayout.m in Sources */,
+				35E9C6B6223B3CFE006C7649 /* RuntimePerson+Play.m in Sources */,
 				35A549082234FC1F0017AA7B /* BgView.m in Sources */,
 				35A548A4222F63E00017AA7B /* TransDict.m in Sources */,
 				35A548DC223113FF0017AA7B /* RedView.m in Sources */,
 				35E9C60522378E2E006C7649 /* XZ_RootTool.m in Sources */,
+				35E9C6AD223B337B006C7649 /* RunTimeController.m in Sources */,
 				35A548EC2232585F0017AA7B /* XZDrawController.m in Sources */,
 				35A548CB2230DB050017AA7B /* KutilManager.m in Sources */,
+				35E9C6BA223B766E006C7649 /* RequestController.m in Sources */,
 				35A548EF223262BC0017AA7B /* QuartzView.m in Sources */,
+				35E9C6E7223F90A1006C7649 /* TestRAC.m in Sources */,
 				35E9C69D223A029B006C7649 /* CollectionImageCell.m in Sources */,
 				35A548C72230D9240017AA7B /* NaviDemo.m in Sources */,
 				35A54891222E5A650017AA7B /* PersonModel.m in Sources */,
 				35A54888222D2C990017AA7B /* TestDemo.m in Sources */,
 				35A5490F223601AA0017AA7B /* RotationController.m in Sources */,
+				35E9C6EA223F9491006C7649 /* TestRACView.m in Sources */,
 				35E9C6A4223A35C5006C7649 /* WaterFall.m in Sources */,
 				35A548AD222F6CE80017AA7B /* Cat.m in Sources */,
 				35A5486E222CBB290017AA7B /* ConstArray.m in Sources */,
 				35E9C6102237B25C006C7649 /* GCD_Controller.m in Sources */,
+				35E9C6D8223F6CAF006C7649 /* RACController.m in Sources */,
+				35E9C6E1223F7697006C7649 /* UIButton+customer.m in Sources */,
 				351492A322315D4C00D32546 /* WineModel.m in Sources */,
 				35A548BE2230B8E10017AA7B /* SandBox.m in Sources */,
 				35A54919223659BF0017AA7B /* CustomButton.m in Sources */,
@@ -821,11 +963,13 @@
 				35A54871222CBD100017AA7B /* ConstDictionary.m in Sources */,
 				35A548A0222F5AF60017AA7B /* MainPageModel.m in Sources */,
 				35A54899222E7D120017AA7B /* BasicViewController.m in Sources */,
+				35E9C6DB223F7073006C7649 /* XZ_AnimationAlertView.m in Sources */,
 				35E9C6932239FDD0006C7649 /* ImageShowDemo.m in Sources */,
 				35A548F22233B8DD0017AA7B /* PictureView.m in Sources */,
 				35A548A7222F64A60017AA7B /* Person.m in Sources */,
 				35A548E9223256FE0017AA7B /* Quartz2D.m in Sources */,
 				35A5483F222CB0E40017AA7B /* main.m in Sources */,
+				35E9C6B3223B3AD9006C7649 /* RunTimeDog.m in Sources */,
 				35A548E5223254340017AA7B /* TestDrawController.m in Sources */,
 				35A5487F222D03C70017AA7B /* XZCornerRadius.m in Sources */,
 				35A548F82234B67F0017AA7B /* DrawPictureAndText.m in Sources */,
@@ -833,6 +977,7 @@
 				35A54831222CB0E30017AA7B /* AppDelegate.m in Sources */,
 				35A54916223632BC0017AA7B /* WheelView.m in Sources */,
 				35A548AA222F64B10017AA7B /* Dog.m in Sources */,
+				35E9C6D0223B9E46006C7649 /* StepModel.m in Sources */,
 				35A548FF2234F9730017AA7B /* GestureLock.m in Sources */,
 				35A54874222CC3AC0017AA7B /* CollectionViewPractice.m in Sources */,
 				35A548B52230A8AC0017AA7B /* TransValue.m in Sources */,
@@ -841,7 +986,9 @@
 				35E9C6A9223A47FF006C7649 /* ImageModel.m in Sources */,
 				3514929F223150AA00D32546 /* CartCell.m in Sources */,
 				35A548C32230C15F0017AA7B /* CustomerButton.m in Sources */,
+				35E9C6B0223B359B006C7649 /* RuntimePerson.m in Sources */,
 				35E9C5FE2237878A006C7649 /* UIView+frame.m in Sources */,
+				35E9C6CD223B9DE3006C7649 /* DishModel.m in Sources */,
 				35A548D6223112FD0017AA7B /* Gesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1016,6 +1163,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BF5CN26RG;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoPractice/PrefixHeader.pch";
 				INFOPLIST_FILE = DemoPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1035,6 +1183,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BF5CN26RG;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoPractice/PrefixHeader.pch";
 				INFOPLIST_FILE = DemoPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
