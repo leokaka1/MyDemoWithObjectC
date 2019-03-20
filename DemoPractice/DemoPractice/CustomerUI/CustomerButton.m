@@ -11,8 +11,8 @@
 @implementation CustomerButton
 
 -(instancetype)initTitleTextButtonWithTitle:(NSString *)title TitleColor:(UIColor *)color Target:(id)target SEL:(SEL)selector{
-    
-    if (self == [super init]) {
+    self = [super init];
+    if (self != nil) {
         [self setTitle:title forState:UIControlStateNormal];
         [self setTitleColor:color forState:UIControlStateNormal];
         [self addTarget:target action:selector forControlEvents:UIControlEventTouchUpInside];

@@ -22,7 +22,7 @@
 		35A5486E222CBB290017AA7B /* ConstArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A5486D222CBB290017AA7B /* ConstArray.m */; };
 		35A54871222CBD100017AA7B /* ConstDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54870222CBD100017AA7B /* ConstDictionary.m */; };
 		35A54874222CC3AC0017AA7B /* CollectionViewPractice.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54873222CC3AC0017AA7B /* CollectionViewPractice.m */; };
-		35A5487F222D03C70017AA7B /* XZCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A5487E222D03C70017AA7B /* XZCornerRadius.m */; };
+		35A5487F222D03C70017AA7B /* XZ_CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A5487E222D03C70017AA7B /* XZ_CornerRadius.m */; };
 		35A54882222D0B130017AA7B /* MainPage+OtherFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54881222D0B130017AA7B /* MainPage+OtherFunction.m */; };
 		35A54888222D2C990017AA7B /* TestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54887222D2C990017AA7B /* TestDemo.m */; };
 		35A5488E222E5A4D0017AA7B /* person.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35A5488D222E5A4D0017AA7B /* person.plist */; };
@@ -90,6 +90,12 @@
 		35E9C6E4223F842C006C7649 /* UITextField+customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6E3223F842C006C7649 /* UITextField+customer.m */; };
 		35E9C6E7223F90A1006C7649 /* TestRAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6E6223F90A1006C7649 /* TestRAC.m */; };
 		35E9C6EA223F9491006C7649 /* TestRACView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6E9223F9491006C7649 /* TestRACView.m */; };
+		35E9C6EF2240BB06006C7649 /* RAC_LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6EE2240BB06006C7649 /* RAC_LoginController.m */; };
+		35E9C6F12240BB10006C7649 /* RAC_LoginController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E9C6F02240BB10006C7649 /* RAC_LoginController.storyboard */; };
+		35E9C6F42240C051006C7649 /* XZ_VerifyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6F32240C051006C7649 /* XZ_VerifyTools.m */; };
+		35E9C6F72240F312006C7649 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C6F62240F312006C7649 /* LoginViewModel.m */; };
+		35E9C7012241E567006C7649 /* SmallPieceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C7002241E567006C7649 /* SmallPieceController.m */; };
+		35E9C7042241E64D006C7649 /* XZ_NineGridview.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9C7032241E64D006C7649 /* XZ_NineGridview.m */; };
 		B0A632975F0F80770F8AF699 /* libPods-DemoPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */; };
 /* End PBXBuildFile section */
 
@@ -142,8 +148,8 @@
 		35A54870222CBD100017AA7B /* ConstDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstDictionary.m; sourceTree = "<group>"; };
 		35A54872222CC3AC0017AA7B /* CollectionViewPractice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewPractice.h; sourceTree = "<group>"; };
 		35A54873222CC3AC0017AA7B /* CollectionViewPractice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewPractice.m; sourceTree = "<group>"; };
-		35A5487D222D03C70017AA7B /* XZCornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZCornerRadius.h; sourceTree = "<group>"; };
-		35A5487E222D03C70017AA7B /* XZCornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZCornerRadius.m; sourceTree = "<group>"; };
+		35A5487D222D03C70017AA7B /* XZ_CornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZ_CornerRadius.h; sourceTree = "<group>"; };
+		35A5487E222D03C70017AA7B /* XZ_CornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZ_CornerRadius.m; sourceTree = "<group>"; };
 		35A54880222D0B130017AA7B /* MainPage+OtherFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MainPage+OtherFunction.h"; sourceTree = "<group>"; };
 		35A54881222D0B130017AA7B /* MainPage+OtherFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MainPage+OtherFunction.m"; sourceTree = "<group>"; };
 		35A54886222D2C990017AA7B /* TestDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDemo.h; sourceTree = "<group>"; };
@@ -274,6 +280,17 @@
 		35E9C6E6223F90A1006C7649 /* TestRAC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRAC.m; sourceTree = "<group>"; };
 		35E9C6E8223F9491006C7649 /* TestRACView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRACView.h; sourceTree = "<group>"; };
 		35E9C6E9223F9491006C7649 /* TestRACView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACView.m; sourceTree = "<group>"; };
+		35E9C6ED2240BB06006C7649 /* RAC_LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAC_LoginController.h; sourceTree = "<group>"; };
+		35E9C6EE2240BB06006C7649 /* RAC_LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_LoginController.m; sourceTree = "<group>"; };
+		35E9C6F02240BB10006C7649 /* RAC_LoginController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RAC_LoginController.storyboard; sourceTree = "<group>"; };
+		35E9C6F22240C051006C7649 /* XZ_VerifyTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZ_VerifyTools.h; sourceTree = "<group>"; };
+		35E9C6F32240C051006C7649 /* XZ_VerifyTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZ_VerifyTools.m; sourceTree = "<group>"; };
+		35E9C6F52240F312006C7649 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		35E9C6F62240F312006C7649 /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		35E9C6FF2241E567006C7649 /* SmallPieceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallPieceController.h; sourceTree = "<group>"; };
+		35E9C7002241E567006C7649 /* SmallPieceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallPieceController.m; sourceTree = "<group>"; };
+		35E9C7022241E64D006C7649 /* XZ_NineGridview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZ_NineGridview.h; sourceTree = "<group>"; };
+		35E9C7032241E64D006C7649 /* XZ_NineGridview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZ_NineGridview.m; sourceTree = "<group>"; };
 		3DAA84B20E99A4E9FBF24B78 /* Pods-DemoPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		4399237CE485CF4AAAD4920C /* libPods-DemoPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FC2137E3E1919B06EAEE9 /* Pods-DemoPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoPractice/Pods-DemoPractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -368,7 +385,7 @@
 				35A5489A222F57850017AA7B /* Model */,
 				35A54896222E7D040017AA7B /* BasicView */,
 				35A54892222E7C7F0017AA7B /* XMG_Practices */,
-				35A54875222D02990017AA7B /* XZ_CornerRadius */,
+				35E9C6F82241E519006C7649 /* SmallPiece */,
 				35A5482F222CB0E30017AA7B /* AppDelegate.h */,
 				35A54830222CB0E30017AA7B /* AppDelegate.m */,
 				35A54861222CB18F0017AA7B /* MainPage.h */,
@@ -414,15 +431,6 @@
 				35A54855222CB0E40017AA7B /* Info.plist */,
 			);
 			path = DemoPracticeUITests;
-			sourceTree = "<group>";
-		};
-		35A54875222D02990017AA7B /* XZ_CornerRadius */ = {
-			isa = PBXGroup;
-			children = (
-				35A5487D222D03C70017AA7B /* XZCornerRadius.h */,
-				35A5487E222D03C70017AA7B /* XZCornerRadius.m */,
-			);
-			path = XZ_CornerRadius;
 			sourceTree = "<group>";
 		};
 		35A54892222E7C7F0017AA7B /* XMG_Practices */ = {
@@ -644,6 +652,7 @@
 		35E9C5FF22378DE1006C7649 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				35E9C60922379082006C7649 /* XZ_Tools.h */,
 				35A54865222CB2580017AA7B /* Marco.h */,
 				35E9C6DA223F7072006C7649 /* XZ_AnimationAlertView.h */,
 				35E9C6D9223F7072006C7649 /* XZ_AnimationAlertView.m */,
@@ -651,7 +660,12 @@
 				35E9C60422378E2E006C7649 /* XZ_RootTool.m */,
 				35E9C60622378F8D006C7649 /* XZ_SaveTool.h */,
 				35E9C60722378F8D006C7649 /* XZ_SaveTool.m */,
-				35E9C60922379082006C7649 /* XZ_Tools.h */,
+				35E9C6F22240C051006C7649 /* XZ_VerifyTools.h */,
+				35E9C6F32240C051006C7649 /* XZ_VerifyTools.m */,
+				35A5487D222D03C70017AA7B /* XZ_CornerRadius.h */,
+				35A5487E222D03C70017AA7B /* XZ_CornerRadius.m */,
+				35E9C7022241E64D006C7649 /* XZ_NineGridview.h */,
+				35E9C7032241E64D006C7649 /* XZ_NineGridview.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -725,12 +739,26 @@
 			children = (
 				35E9C6D6223F6CAF006C7649 /* RACController.h */,
 				35E9C6D7223F6CAF006C7649 /* RACController.m */,
+				35E9C6ED2240BB06006C7649 /* RAC_LoginController.h */,
+				35E9C6EE2240BB06006C7649 /* RAC_LoginController.m */,
+				35E9C6F52240F312006C7649 /* LoginViewModel.h */,
+				35E9C6F62240F312006C7649 /* LoginViewModel.m */,
+				35E9C6F02240BB10006C7649 /* RAC_LoginController.storyboard */,
 				35E9C6E8223F9491006C7649 /* TestRACView.h */,
 				35E9C6E9223F9491006C7649 /* TestRACView.m */,
 				35E9C6E5223F90A1006C7649 /* TestRAC.h */,
 				35E9C6E6223F90A1006C7649 /* TestRAC.m */,
 			);
 			path = RAC;
+			sourceTree = "<group>";
+		};
+		35E9C6F82241E519006C7649 /* SmallPiece */ = {
+			isa = PBXGroup;
+			children = (
+				35E9C6FF2241E567006C7649 /* SmallPieceController.h */,
+				35E9C7002241E567006C7649 /* SmallPieceController.m */,
+			);
+			path = SmallPiece;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -844,6 +872,7 @@
 				351492A0223150AA00D32546 /* CartCell.xib in Resources */,
 				35A5488E222E5A4D0017AA7B /* person.plist in Resources */,
 				35A54911223602720017AA7B /* Rotation.storyboard in Resources */,
+				35E9C6F12240BB10006C7649 /* RAC_LoginController.storyboard in Resources */,
 				35E9C69E223A029B006C7649 /* CollectionImageCell.xib in Resources */,
 				35A54839222CB0E40017AA7B /* Assets.xcassets in Resources */,
 				35A54913223608F90017AA7B /* WheelView.xib in Resources */,
@@ -929,6 +958,7 @@
 				35E9C6962239FDF7006C7649 /* ImageLayout.m in Sources */,
 				35E9C6E4223F842C006C7649 /* UITextField+customer.m in Sources */,
 				35A54882222D0B130017AA7B /* MainPage+OtherFunction.m in Sources */,
+				35E9C6EF2240BB06006C7649 /* RAC_LoginController.m in Sources */,
 				35A548B1222F787A0017AA7B /* UIBasic.m in Sources */,
 				35E9C60822378F8D006C7649 /* XZ_SaveTool.m in Sources */,
 				35A54863222CB18F0017AA7B /* MainPage.m in Sources */,
@@ -949,6 +979,7 @@
 				35A54891222E5A650017AA7B /* PersonModel.m in Sources */,
 				35A54888222D2C990017AA7B /* TestDemo.m in Sources */,
 				35A5490F223601AA0017AA7B /* RotationController.m in Sources */,
+				35E9C7012241E567006C7649 /* SmallPieceController.m in Sources */,
 				35E9C6EA223F9491006C7649 /* TestRACView.m in Sources */,
 				35E9C6A4223A35C5006C7649 /* WaterFall.m in Sources */,
 				35A548AD222F6CE80017AA7B /* Cat.m in Sources */,
@@ -965,13 +996,16 @@
 				35A54899222E7D120017AA7B /* BasicViewController.m in Sources */,
 				35E9C6DB223F7073006C7649 /* XZ_AnimationAlertView.m in Sources */,
 				35E9C6932239FDD0006C7649 /* ImageShowDemo.m in Sources */,
+				35E9C7042241E64D006C7649 /* XZ_NineGridview.m in Sources */,
 				35A548F22233B8DD0017AA7B /* PictureView.m in Sources */,
+				35E9C6F72240F312006C7649 /* LoginViewModel.m in Sources */,
 				35A548A7222F64A60017AA7B /* Person.m in Sources */,
 				35A548E9223256FE0017AA7B /* Quartz2D.m in Sources */,
 				35A5483F222CB0E40017AA7B /* main.m in Sources */,
 				35E9C6B3223B3AD9006C7649 /* RunTimeDog.m in Sources */,
+				35E9C6F42240C051006C7649 /* XZ_VerifyTools.m in Sources */,
 				35A548E5223254340017AA7B /* TestDrawController.m in Sources */,
-				35A5487F222D03C70017AA7B /* XZCornerRadius.m in Sources */,
+				35A5487F222D03C70017AA7B /* XZ_CornerRadius.m in Sources */,
 				35A548F82234B67F0017AA7B /* DrawPictureAndText.m in Sources */,
 				35A548B82230AA470017AA7B /* TransValueNext.m in Sources */,
 				35A54831222CB0E30017AA7B /* AppDelegate.m in Sources */,

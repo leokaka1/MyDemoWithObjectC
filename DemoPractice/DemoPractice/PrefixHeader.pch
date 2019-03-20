@@ -13,7 +13,6 @@
 #import "ConstArray.h"
 #import "ConstDictionary.h"
 #import "CollectionViewPractice.h"
-#import "XZCornerRadius.h"
 #import "TestDemo.h"
 #import "BasicViewController.h"
 #import "XMG_MainView.h"

@@ -12,13 +12,13 @@
 
 +(NSDictionary *)getMainDictionary{
     NSDictionary *dict = @{@"title":
-                      @[@"小码哥大神班视频",@"Label",@"TableView"],
+                      @[@"小码哥大神班视频",@"一些小功能",@"TableView"],
                   
                   @"detail":
-                      @[@"大神班一些基础知识介绍",@"Label的基本使用和特殊使用",@"TableView的基本使用和特殊使用"],
+                      @[@"大神班一些基础知识介绍",@"一些小功能的演示",@"TableView的基本使用和特殊使用"],
                   
                   @"controller":
-                      @[@"XMG_MainView",@"TestDemo"],
+                      @[@"XMG_MainView",@"SmallPieceController"],
                   };
     return dict;
 }

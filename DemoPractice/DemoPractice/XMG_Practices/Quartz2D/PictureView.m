@@ -11,7 +11,8 @@
 @implementation PictureView
 
 -(instancetype)initWithFrame:(CGRect)frame{
-    if (self == [super initWithFrame:frame]) {
+    self= [super initWithFrame:frame];
+    if (self != nil) {
     
 //        [NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(update) userInfo:nil repeats:true];
         

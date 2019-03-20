@@ -19,9 +19,11 @@ PODS:
   - MJRefresh (3.1.15.6)
   - ReactiveObjC (3.1.0)
   - SDAutoLayout (2.2.1)
-  - SDWebImage (4.4.2):
-    - SDWebImage/Core (= 4.4.2)
-  - SDWebImage/Core (4.4.2)
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
+  - SGAdvertScrollView (1.2.7):
+    - SDWebImage (~> 4.1.0)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
@@ -31,7 +33,8 @@ DEPENDENCIES:
   - MJRefresh
   - ReactiveObjC
   - SDAutoLayout
-  - SDWebImage
+  - SDWebImage (~> 4.1.0)
+  - SGAdvertScrollView (~> 1.2.7)
   - YYModel
 
 SPEC REPOS:
@@ -43,6 +46,7 @@ SPEC REPOS:
     - ReactiveObjC
     - SDAutoLayout
     - SDWebImage
+    - SGAdvertScrollView
     - YYModel
 
 SPEC CHECKSUMS:
@@ -52,9 +56,10 @@ SPEC CHECKSUMS:
   MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
-  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
+  SGAdvertScrollView: b1accd4ba84e8592f08f18df10174c98ea249d11
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: c4f768fb164b2c4e5df48ab89621c739442fc878
+PODFILE CHECKSUM: c99d1ee34a22c24bcd32534885be3282f5b3651b
 
 COCOAPODS: 1.5.2

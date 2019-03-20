@@ -18,4 +18,13 @@
 //动画弹窗
 #import "XZ_AnimationAlertView.h"
 
+//正则表达式
+#import "XZ_VerifyTools.h"
+
+//图片圆角
+#import "XZ_CornerRadius.h"
+
+//九宫格
+#import "XZ_NineGridview.h"
+
 #endif /* XZ_Tools_h */

@@ -148,7 +148,7 @@
     if (!nibsRegistered) {
         UINib *nib = [UINib nibWithNibName:NSStringFromClass([CartCell class]) bundle:nil];
         [tableView registerNib:nib forCellReuseIdentifier:CellIdentifier];
-        nibsRegistered = YES;
+//        nibsRegistered = YES;
     }
     
     //    indexPath.section

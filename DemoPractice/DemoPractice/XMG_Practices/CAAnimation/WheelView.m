@@ -41,7 +41,8 @@
 }
 
 -(instancetype)initWithFrame:(CGRect)frame{
-    if (self == [super initWithFrame:frame]) {
+    self = [super initWithFrame:frame];
+    if (self != nil) {
         NSLog(@"%s",__func__);
         self = [[NSBundle mainBundle] loadNibNamed:@"WheelView" owner:nil options:nil][0];
     }
