@@ -37,6 +37,9 @@
         make.centerX.mas_equalTo(self.view.mas_centerX);
         make.width.height.mas_equalTo(50);
     }];
+    
+    
+    [self test1];
 }
 
 
@@ -56,8 +59,8 @@
         NSLog(@"写入失败");
     }
     NSLog(@"path = %@",_path);
-    
-    
+
+
 //    偏好设置
     [[NSUserDefaults standardUserDefaults] setObject:@"123" forKey:@"name"];
     
@@ -74,5 +77,20 @@
     NSLog(@"default == >%@",detail);
 }
 
+
+-(void)test1{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"shop.plist" ofType:nil];
+    NSArray *imageArr = [NSArray arrayWithContentsOfFile:path];
+    for (NSDictionary *dict in imageArr) {
+        NSString *image = dict[@"img"];
+        NSURL *url = [NSURL URLWithString:image];
+        NSData *data = [NSData dataWithContentsOfURL:url];
+        NSString *fileName = [image lastPathComponent];
+//        获取cache路径
+        NSString *fullPath = [kCachesDirectory stringByAppendingPathComponent:fileName];
+        NSLog(@"path==>%@",fullPath);
+        [data writeToFile:fullPath atomically:true];
+    }
+}
 
 @end
