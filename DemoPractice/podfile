@@ -2,7 +2,7 @@ platform :ios, ‘8.0’
 target :’DemoPractice’ do
 pod 'Masonry'
 pod ‘AFNetworking’
-pod 'SDWebImage'
+pod 'SDWebImage','~> 4.1.0'
 pod 'MJExtension'
 pod 'SDAutoLayout'
 pod 'YYModel'
@@ -10,4 +10,5 @@ pod 'MJRefresh'
 #请求返回里unicode 转 中文
 #pod 'HYBUnicodeReadable'
 pod 'ReactiveObjC'
+pod 'SGAdvertScrollView','~> 1.2.7'
 end

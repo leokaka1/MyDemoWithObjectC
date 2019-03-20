@@ -12,7 +12,8 @@
 @implementation BgView
 
 -(instancetype)initWithFrame:(CGRect)frame{
-    if (self == [super initWithFrame:frame]) {
+    self =[super initWithFrame:frame];
+    if (self != nil) {
         LockView *lockView = [[LockView alloc]init];
         lockView.frame = CGRectMake(20, 100, kScreenWidth - 40, 300);
         [self addSubview:lockView];

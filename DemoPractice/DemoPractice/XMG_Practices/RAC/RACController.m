@@ -9,6 +9,7 @@
 #import "RACController.h"
 #import "TestRAC.h"
 #import "TestRACView.h"
+#import "RAC_LoginController.h"
 
 @interface RACController ()
 
@@ -24,6 +25,15 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = Color_White;
+    
+//    跳转去登录页面
+    UIButton *customerBtn = [UIButton ButtonWithFrame:CGRectMake(100, 100, 150, 45) Title:@"跳转去登录页面" TitleFontSize:15 TitleColor:Color_White BacgroundColor:Color_Red IsRoundCorner:true];
+    [self.view addSubview:customerBtn];
+    [[customerBtn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
+        UIStoryboard *sb = [UIStoryboard storyboardWithName:@"RAC_LoginController" bundle:nil];
+        UIViewController *destVc = [sb instantiateViewControllerWithIdentifier:@"login"];
+        [self.navigationController pushViewController:destVc animated:true];
+    }];
     
 #if 0
     [self demo1];
@@ -45,8 +55,8 @@
     [self demo17];
     [self demo18];
     [self demo19];
-#endif
     [self demo20];
+#endif
 }
 
 //监听点击事件
@@ -147,7 +157,7 @@
     }];
 }
 
-//    定时器
+//定时器
 -(void)demo5{
 //    定时器
     self.disposable = [[RACSignal interval:1.0 onScheduler:[RACScheduler mainThreadScheduler]] subscribeNext:^(NSDate * _Nullable x) {

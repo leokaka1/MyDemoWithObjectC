@@ -48,7 +48,7 @@
     PersonModel *model = _array[1];
     NSLog(@"%@",model.name);
     
-    UIButton *button = [UIButton new];
+//    UIButton *button = [UIButton new];
     
     
 }

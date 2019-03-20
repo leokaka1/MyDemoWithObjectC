@@ -11,7 +11,8 @@
 @implementation Person
 
 -(instancetype)initWithDict:(NSDictionary *)dict{
-    if (self == [super init]) {
+    self = [super init];
+    if (self != nil) {
 //        [self setValuesForKeysWithDictionary:dict];
         self.name  = dict[@"name"];
         self.age = dict[@"age"];

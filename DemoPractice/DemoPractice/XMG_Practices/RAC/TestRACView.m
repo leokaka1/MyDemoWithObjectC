@@ -22,8 +22,8 @@
 //}
 
 -(instancetype)initWithBgColor:(UIColor *)color Frame : (CGRect )rect{
-    
-    if (self == [super init]) {
+    self= [super init];
+    if (self != nil) {
         self.frame = rect;
         self.backgroundColor = color;
     }
