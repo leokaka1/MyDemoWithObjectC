@@ -52,7 +52,7 @@
 
 //    noti
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receivesNoti:) name:@"backValue" object:nil];
-
+//
     [self.navigationController pushViewController:next animated:true];
 
 //    用反射机制创建VC

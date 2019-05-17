@@ -16,10 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+
 @interface TransValueNext : UIViewController
 
-@property(strong,nonatomic) void(^backBlock)(NSString *str);
-@property(strong,nonatomic) id<backDelegate> delegate;
+@property(copy,nonatomic) void(^backBlock)(NSString *str);
+@property(weak,nonatomic) id<backDelegate> delegate;
 
 @end
 

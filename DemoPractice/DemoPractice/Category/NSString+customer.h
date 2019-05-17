@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (customer)
 
+
+-(NSString*)reverseString;
+
 @end
 
 NS_ASSUME_NONNULL_END

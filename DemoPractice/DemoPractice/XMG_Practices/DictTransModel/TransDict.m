@@ -15,6 +15,7 @@
 @property(strong,nonatomic) NSArray *dataArr;
 @property(strong,nonatomic) NSMutableArray *personArr;
 @property(strong,nonatomic) Person *p;
+@property(copy,nonatomic) int(^block)(int num);
 
 @end
 
@@ -27,8 +28,8 @@
     [self setDataSource];
     
 //    [self transDict];
-//    [self setKVC];
-    [self setKVO];
+    [self setKVC];
+//    [self setKVO];
 }
 
 #pragma mark - 设置数据源
@@ -77,9 +78,38 @@
     
 //    keyPath
     _p = [[Person alloc]init];
-    _p.cat = [[Cat alloc]init];
+    [_p setValue:@"Leon1" forKey:@"name"];
+    [_p setValue:@"Leon2" forKey:@"name2"];
+    [_p setValue:@"Leon3" forKey:@"name3"];
+    [_p setValue:@"Leon4" forKey:@"name4"];
+    [_p setValue:@"Leon5" forKey:@"name5"];
+    [_p setValue:@"Leon6" forKey:@"name6"];
+    
+    NSString*name1 =  [_p valueForKey:@"name"];
+    NSString*name2 = [_p valueForKey:@"name2"];
+    NSString*name3 = [_p valueForKey:@"name3"];
+    NSString*name4 = [_p valueForKey:@"name4"];
+    NSString*name5 = [_p valueForKey:@"name5"];
+    NSString*name6 = [_p valueForKey:@"name6"];
+    
+    NSLog(@"\nname1 = %@\n, name2 = %@\n, name3= %@\n, name4 = %@\n, name5 = %@\n , name6 = %@\n",name1,name2,name3,name4,name5,name6);
+    
+//    _p.cat = [[Cat alloc]init];
     [_p setValue:@"凯迪" forKeyPath:@"cat.name"];
-    NSLog(@"Cat Chinese Name = %@",[_p valueForKeyPath:@"cat.name"]);
+//    NSLog(@"Cat Chinese Name = %@",[_p valueForKeyPath:@"cat.name"]);
+    
+    __block int muti = 10 ;
+    self.block = ^int(int num) {
+        return muti *num ;
+    };
+    muti = 6;
+    [self execBlock];
+    
+}
+
+-(void)execBlock{
+    int sum =  self.block(4);
+    NSLog(@"sum ==%d",sum);
 }
 
 #pragma mark - KVO

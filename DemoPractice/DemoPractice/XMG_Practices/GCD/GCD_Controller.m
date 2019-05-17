@@ -25,12 +25,16 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"GCD";
     self.count = 50;
-//    [self test1];
-//    [self test2];
-//    [self test3];
-//    [self test4];
-//    [self test5]
+    
+#if 0
+    [self test1];
+    [self test2];
+    [self test3];
+    [self test4];
+    [self test5]
     [self test6];
+#endif
+    [self test7];
 }
 
 -(void)test1{
@@ -219,4 +223,32 @@
     }
 }
 
+
+-(void)test7{
+//    /用栅栏函数必须要自定义队列
+    dispatch_queue_t queue  = dispatch_queue_create("queue", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_async(queue, ^{
+        NSLog(@"1");
+    });
+    
+    dispatch_async(queue, ^{
+        NSLog(@"2");
+    });
+    
+    dispatch_barrier_async(queue, ^{
+                NSLog(@"+++++++++++");
+    });
+    
+    dispatch_async(queue, ^{
+        NSLog(@"3");
+    });
+    
+    dispatch_async(queue, ^{
+        
+        NSLog(@"4");
+    });
+    
+    
+    
+}
 @end

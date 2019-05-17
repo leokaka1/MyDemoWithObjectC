@@ -19,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"传值第二页";
+    
+ 
+    
+    
     [self setupUI];
 }
 

@@ -18,7 +18,7 @@
 
 -(NSArray *)titleArr{
     if (_titleArr == nil) {
-        _titleArr = @[@"文字轮播图",@"扫码",@"滑动选项",@"滑动选项",@"文字轮播图",@"文字轮播图",@"文字轮播图",@"文字轮播图",@"文字轮播图"];
+        _titleArr = @[@"排序算法",@"扫码",@"滑动选项",@"滑动选项",@"文字轮播图",@"文字轮播图",@"文字轮播图",@"文字轮播图",@"文字轮播图"];
     }
     return _titleArr;
 }
@@ -43,6 +43,19 @@
 }
 
 -(void)didSelectGridViewForIndex:(NSInteger)index{
-    NSLog(@"index ==>%ld",index);
+    
+    NSString *destinationController = @"";
+    switch (index) {
+        case 0:
+            destinationController = @"Sort";
+            break;
+            
+        default:
+            break;
+    }
+    
+    Class class = NSClassFromString(destinationController);
+    UIViewController *vc  = [[class alloc]init];
+    [self.navigationController pushViewController:vc animated:true];
 }
 @end

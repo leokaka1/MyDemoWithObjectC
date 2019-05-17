@@ -9,6 +9,7 @@
 #import "MainPage.h"
 #import "MainPage+OtherFunction.h"
 #import "Person.h"
+#import "AppDelegate.h"
 
 static NSString *identifier = @"cell";
 
@@ -28,11 +29,17 @@ static NSString *identifier = @"cell";
     self.titleArr = model.title;
     self.detailArr = model.detail;
     self.controllerArr = model.controller;
+    
+    
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"首页";
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    [RACObserve(delegate,networkStatus) subscribeNext:^(NSNumber * networkStatus) {
+        NSLog(@"status ==>%@",networkStatus);
+    }];
 }
 
 @end
