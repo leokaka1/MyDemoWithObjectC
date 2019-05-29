@@ -15,5 +15,5 @@
 #import "UIView+frame.h"
 #import "UINavigationBar+transBar.h"
 #import "UITextField+customer.h"
-
+#import "NSString+customer.h"
 #endif /* Category_h */

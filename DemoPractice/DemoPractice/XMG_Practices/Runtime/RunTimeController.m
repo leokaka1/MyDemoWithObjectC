@@ -33,6 +33,8 @@
 //    动态添加分类属性
     RuntimePerson *p = [[RuntimePerson alloc]init];
     p.gameName = @"王者荣耀";
+    [p play];
+    [p fuck];
     NSLog(@"gameName == >%@",p.gameName);
     
 }

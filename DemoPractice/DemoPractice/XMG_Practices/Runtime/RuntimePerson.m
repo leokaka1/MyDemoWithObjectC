@@ -9,12 +9,25 @@
 #import "RuntimePerson.h"
 #import <objc/message.h>
 
+
+
 @implementation RuntimePerson
+
+void fuckImp (void){
+    NSLog(@"fuck")
+}
 
 -(void)run{
     NSLog(@"run 了一下");
 }
 
+-(void)play{
+    NSLog(@"play 了一下")
+}
+
+-(void)sing{
+    NSLog(@"sing 了一下")
+}
 /*返回标识符意思
  *Code          Meaning
  c           A char
@@ -53,12 +66,28 @@
 //    return YES;
 //}
 
-
--(id)forwardingTargetForSelector:(SEL)aSelector{
-    if (aSelector  == sel_registerName("eat")) {
-        return objc_msgSend(objc_msgSend(objc_getClass("RunTimeDog"),sel_registerName("alloc")),sel_registerName("init"));
-    }
-    return nil;
++(void)load{
+    Method play = class_getInstanceMethod(self, @selector(play));
+    Method sing = class_getInstanceMethod(self, @selector(sing));
+    method_exchangeImplementations(play, sing);
 }
+
+//-(id)forwardingTargetForSelector:(SEL)aSelector{
+//    if (aSelector  == sel_registerName("eat")) {
+//        return objc_msgSend(objc_msgSend(objc_getClass("RunTimeDog"),sel_registerName("alloc")),sel_registerName("init"));
+//    }
+//    return nil;
+//}
+
++ (BOOL)resolveInstanceMethod:(SEL)sel{
+    if (sel == @selector(fuck)) {
+        class_addMethod(self, @selector(fuck), (IMP)fuckImp, "v@:");
+        return YES;
+    }else{
+        return [super resolveInstanceMethod:sel];
+    }
+}
+
+
 
 @end

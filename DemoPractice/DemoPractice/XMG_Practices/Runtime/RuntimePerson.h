@@ -13,6 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface RuntimePerson : NSObject
 
 -(void)run;
+-(void)play;
+-(void)sing;
+-(void)fuck;
 
 @end
 

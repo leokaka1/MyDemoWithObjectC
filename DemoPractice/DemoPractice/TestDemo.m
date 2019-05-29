@@ -22,6 +22,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSString *demoStr  = @"Hello , World!";
+    NSMutableString *mString = [NSMutableString stringWithCapacity:demoStr.length];
+    for (NSInteger i = demoStr.length-1; i>=0; i--) {
+        [mString appendString:[demoStr substringWithRange:NSMakeRange(i, 1)]];
+    }
+    
+    NSLog(@"mString===%@",mString);
+    
+    
     [self setupDataSource];
     [self setupUI];
     

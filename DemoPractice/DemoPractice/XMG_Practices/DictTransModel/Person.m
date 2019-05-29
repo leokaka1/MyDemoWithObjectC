@@ -8,6 +8,24 @@
 
 #import "Person.h"
 
+@interface Person()
+{
+    NSString* _name;
+    
+//    BaseModel* _name2;
+    NSString* _isName2;
+    
+    NSString* _isName3;
+    NSString* name3;
+    
+    NSString* name4;
+    NSString* isName4;
+    
+    NSString* isName5;
+}
+
+@end
+
 @implementation Person
 
 -(instancetype)initWithDict:(NSDictionary *)dict{
@@ -25,6 +43,23 @@
         }
     }
     return self;
+}
+
+- (void)setName:(NSString*)name
+{
+    NSLog(@"%s name=%@", __FUNCTION__, name);
+    _name = name;
+}
+
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    NSLog(@"%s value=%@, 该key=%@不存在！", __FUNCTION__, value, key);
+}
+
+- (id)valueForUndefinedKey:(NSString *)key
+{
+    NSLog(@"%s，该key不存在%@", __FUNCTION__, key);
+    return nil;
 }
 
 @end

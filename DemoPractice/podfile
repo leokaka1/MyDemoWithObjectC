@@ -11,4 +11,5 @@ pod 'MJRefresh'
 #pod 'HYBUnicodeReadable'
 pod 'ReactiveObjC'
 pod 'SGAdvertScrollView','~> 1.2.7'
+pod 'RealReachability'
 end

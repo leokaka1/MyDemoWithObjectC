@@ -10,6 +10,8 @@
 		3514929F223150AA00D32546 /* CartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514929D223150A900D32546 /* CartCell.m */; };
 		351492A0223150AA00D32546 /* CartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3514929E223150A900D32546 /* CartCell.xib */; };
 		351492A322315D4C00D32546 /* WineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 351492A222315D4C00D32546 /* WineModel.m */; };
+		3540CB53224CA8E3005730C0 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540CB52224CA8E3005730C0 /* Sort.m */; };
+		3540CB56224CABDF005730C0 /* NSString+customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540CB55224CABDF005730C0 /* NSString+customer.m */; };
 		355AADAE22314A8C00DAC3DC /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 355AADAD22314A8C00DAC3DC /* ShoppingCart.m */; };
 		35A54831222CB0E30017AA7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54830222CB0E30017AA7B /* AppDelegate.m */; };
 		35A54837222CB0E30017AA7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A54835222CB0E30017AA7B /* Main.storyboard */; };
@@ -122,6 +124,10 @@
 		3514929E223150A900D32546 /* CartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCell.xib; sourceTree = "<group>"; };
 		351492A122315D4C00D32546 /* WineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WineModel.h; sourceTree = "<group>"; };
 		351492A222315D4C00D32546 /* WineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WineModel.m; sourceTree = "<group>"; };
+		3540CB51224CA8E3005730C0 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		3540CB52224CA8E3005730C0 /* Sort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
+		3540CB54224CABDF005730C0 /* NSString+customer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+customer.h"; sourceTree = "<group>"; };
+		3540CB55224CABDF005730C0 /* NSString+customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+customer.m"; sourceTree = "<group>"; };
 		355AADAC22314A8C00DAC3DC /* ShoppingCart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
 		355AADAD22314A8C00DAC3DC /* ShoppingCart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
 		35A5482C222CB0E20017AA7B /* DemoPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -339,6 +345,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3540CB50224CA8CA005730C0 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				3540CB51224CA8E3005730C0 /* Sort.h */,
+				3540CB52224CA8E3005730C0 /* Sort.m */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		355AADA822314A5C00DAC3DC /* TableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +553,8 @@
 				35E9C6E0223F7697006C7649 /* UIButton+customer.m */,
 				35E9C6E2223F842C006C7649 /* UITextField+customer.h */,
 				35E9C6E3223F842C006C7649 /* UITextField+customer.m */,
+				3540CB54224CABDF005730C0 /* NSString+customer.h */,
+				3540CB55224CABDF005730C0 /* NSString+customer.m */,
 				35E9C6C7223B96DD006C7649 /* Category.h */,
 			);
 			path = Category;
@@ -755,6 +772,7 @@
 		35E9C6F82241E519006C7649 /* SmallPiece */ = {
 			isa = PBXGroup;
 			children = (
+				3540CB50224CA8CA005730C0 /* Sort */,
 				35E9C6FF2241E567006C7649 /* SmallPieceController.h */,
 				35E9C7002241E567006C7649 /* SmallPieceController.m */,
 			);
@@ -961,6 +979,7 @@
 				35E9C6EF2240BB06006C7649 /* RAC_LoginController.m in Sources */,
 				35A548B1222F787A0017AA7B /* UIBasic.m in Sources */,
 				35E9C60822378F8D006C7649 /* XZ_SaveTool.m in Sources */,
+				3540CB56224CABDF005730C0 /* NSString+customer.m in Sources */,
 				35A54863222CB18F0017AA7B /* MainPage.m in Sources */,
 				35E9C6A1223A34CA006C7649 /* EWWaterFallLayout.m in Sources */,
 				35E9C6B6223B3CFE006C7649 /* RuntimePerson+Play.m in Sources */,
@@ -995,6 +1014,7 @@
 				35A548A0222F5AF60017AA7B /* MainPageModel.m in Sources */,
 				35A54899222E7D120017AA7B /* BasicViewController.m in Sources */,
 				35E9C6DB223F7073006C7649 /* XZ_AnimationAlertView.m in Sources */,
+				3540CB53224CA8E3005730C0 /* Sort.m in Sources */,
 				35E9C6932239FDD0006C7649 /* ImageShowDemo.m in Sources */,
 				35E9C7042241E64D006C7649 /* XZ_NineGridview.m in Sources */,
 				35A548F22233B8DD0017AA7B /* PictureView.m in Sources */,
@@ -1200,6 +1220,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoPractice/PrefixHeader.pch";
 				INFOPLIST_FILE = DemoPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1220,6 +1241,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoPractice/PrefixHeader.pch";
 				INFOPLIST_FILE = DemoPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

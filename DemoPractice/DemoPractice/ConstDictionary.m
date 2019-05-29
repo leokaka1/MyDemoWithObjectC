@@ -18,7 +18,7 @@
                       @[@"大神班一些基础知识介绍",@"一些小功能的演示",@"TableView的基本使用和特殊使用"],
                   
                   @"controller":
-                      @[@"XMG_MainView",@"SmallPieceController"],
+                      @[@"XMG_MainView",@"SmallPieceController",@"TestDemo"],
                   };
     return dict;
 }
