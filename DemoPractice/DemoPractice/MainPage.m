@@ -15,22 +15,22 @@ static NSString *identifier = @"cell";
 
 @interface MainPage ()
 
-
-
+@property(strong,nonatomic) NSDictionary *dict;
 
 @end
 
 @implementation MainPage
 
+
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    
+    
     
     MainPageModel *model = [[MainPageModel alloc]initWithDict:[ConstDictionary getMainDictionary]];
     self.titleArr = model.title;
     self.detailArr = model.detail;
     self.controllerArr = model.controller;
-    
-    
 }
 
 - (void)viewDidLoad {

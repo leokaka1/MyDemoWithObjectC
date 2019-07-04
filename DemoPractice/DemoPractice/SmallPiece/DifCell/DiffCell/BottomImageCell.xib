@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="139" id="KGk-i7-Jjw" customClass="BottomImageCell">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="139"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="324" height="138.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="FET-yh-VRe">
+                        <rect key="frame" x="16" y="55.5" width="78" height="67"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="78" id="14p-Od-TJ2"/>
+                            <constraint firstAttribute="height" constant="67" id="tcN-SV-B9T"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LuckyAnimal" translatesAutoresizingMaskIntoConstraints="NO" id="l7e-wp-P1G">
+                        <rect key="frame" x="121" y="55.5" width="78" height="67"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="Uih-oA-RzA">
+                        <rect key="frame" x="226" y="55.5" width="78" height="67"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="孙正义，超级接盘侠" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLn-VH-rml">
+                        <rect key="frame" x="16" y="16" width="156" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Uih-oA-RzA" firstAttribute="top" secondItem="cLn-VH-rml" secondAttribute="bottom" constant="20" id="2DV-Pk-TO8"/>
+                    <constraint firstItem="l7e-wp-P1G" firstAttribute="leading" secondItem="FET-yh-VRe" secondAttribute="trailing" constant="27" id="2V9-Jz-zXc"/>
+                    <constraint firstItem="l7e-wp-P1G" firstAttribute="top" secondItem="FET-yh-VRe" secondAttribute="top" id="5rS-LD-ijY"/>
+                    <constraint firstItem="cLn-VH-rml" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="6OH-Yl-x8W"/>
+                    <constraint firstItem="Uih-oA-RzA" firstAttribute="leading" secondItem="l7e-wp-P1G" secondAttribute="trailing" constant="27" id="H3M-ai-bXH"/>
+                    <constraint firstItem="Uih-oA-RzA" firstAttribute="height" secondItem="l7e-wp-P1G" secondAttribute="height" id="Psm-2S-eEU"/>
+                    <constraint firstItem="Uih-oA-RzA" firstAttribute="width" secondItem="l7e-wp-P1G" secondAttribute="width" id="PvY-tF-bsJ"/>
+                    <constraint firstAttribute="bottom" secondItem="FET-yh-VRe" secondAttribute="bottom" constant="16" id="S5Q-Da-mFc"/>
+                    <constraint firstItem="cLn-VH-rml" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="X1K-oG-qI4"/>
+                    <constraint firstItem="l7e-wp-P1G" firstAttribute="width" secondItem="FET-yh-VRe" secondAttribute="width" id="cIV-KO-qEi"/>
+                    <constraint firstAttribute="trailing" secondItem="Uih-oA-RzA" secondAttribute="trailing" constant="16" id="czd-U9-L2J"/>
+                    <constraint firstAttribute="bottom" secondItem="Uih-oA-RzA" secondAttribute="bottom" constant="16" id="ehY-Sy-RgB"/>
+                    <constraint firstItem="FET-yh-VRe" firstAttribute="top" secondItem="cLn-VH-rml" secondAttribute="bottom" constant="20" id="jeK-Eh-PJQ"/>
+                    <constraint firstItem="FET-yh-VRe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="qqT-hh-Ulo"/>
+                    <constraint firstAttribute="trailing" secondItem="cLn-VH-rml" secondAttribute="trailing" constant="16" id="s6J-ib-EOL"/>
+                    <constraint firstItem="l7e-wp-P1G" firstAttribute="height" secondItem="FET-yh-VRe" secondAttribute="height" id="sI2-ox-mcQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="134.78260869565219" y="142.29910714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="3" width="640" height="960"/>
+        <image name="4" width="640" height="960"/>
+        <image name="LuckyAnimal" width="300" height="15.5"/>
+    </resources>
+</document>

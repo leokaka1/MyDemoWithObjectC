@@ -13,6 +13,13 @@
 		3540CB53224CA8E3005730C0 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540CB52224CA8E3005730C0 /* Sort.m */; };
 		3540CB56224CABDF005730C0 /* NSString+customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540CB55224CABDF005730C0 /* NSString+customer.m */; };
 		355AADAE22314A8C00DAC3DC /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 355AADAD22314A8C00DAC3DC /* ShoppingCart.m */; };
+		355AC8AC22927EEE0020BF91 /* DifCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355AC8A422927EEE0020BF91 /* DifCell.m */; };
+		355AC8AD22927EEE0020BF91 /* BottomImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355AC8A822927EEE0020BF91 /* BottomImageCell.xib */; };
+		355AC8AE22927EEE0020BF91 /* BottomImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355AC8A922927EEE0020BF91 /* BottomImageCell.m */; };
+		355AC8AF22927EEE0020BF91 /* NormalImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355AC8AA22927EEE0020BF91 /* NormalImageCell.m */; };
+		355AC8B022927EEE0020BF91 /* NormalImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355AC8AB22927EEE0020BF91 /* NormalImageCell.xib */; };
+		355AC8B422927F200020BF91 /* AutoHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 355AC8B322927F200020BF91 /* AutoHeight.m */; };
+		355AC8B7229284F00020BF91 /* ContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355AC8B6229284F00020BF91 /* ContentCell.m */; };
 		35A54831222CB0E30017AA7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A54830222CB0E30017AA7B /* AppDelegate.m */; };
 		35A54837222CB0E30017AA7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A54835222CB0E30017AA7B /* Main.storyboard */; };
 		35A54839222CB0E40017AA7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A54838222CB0E40017AA7B /* Assets.xcassets */; };
@@ -130,6 +137,18 @@
 		3540CB55224CABDF005730C0 /* NSString+customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+customer.m"; sourceTree = "<group>"; };
 		355AADAC22314A8C00DAC3DC /* ShoppingCart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
 		355AADAD22314A8C00DAC3DC /* ShoppingCart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
+		355AC8A322927EEE0020BF91 /* DifCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DifCell.h; sourceTree = "<group>"; };
+		355AC8A422927EEE0020BF91 /* DifCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DifCell.m; sourceTree = "<group>"; };
+		355AC8A622927EEE0020BF91 /* NormalImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalImageCell.h; sourceTree = "<group>"; };
+		355AC8A722927EEE0020BF91 /* BottomImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomImageCell.h; sourceTree = "<group>"; };
+		355AC8A822927EEE0020BF91 /* BottomImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomImageCell.xib; sourceTree = "<group>"; };
+		355AC8A922927EEE0020BF91 /* BottomImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomImageCell.m; sourceTree = "<group>"; };
+		355AC8AA22927EEE0020BF91 /* NormalImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalImageCell.m; sourceTree = "<group>"; };
+		355AC8AB22927EEE0020BF91 /* NormalImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalImageCell.xib; sourceTree = "<group>"; };
+		355AC8B222927F200020BF91 /* AutoHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoHeight.h; sourceTree = "<group>"; };
+		355AC8B322927F200020BF91 /* AutoHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoHeight.m; sourceTree = "<group>"; };
+		355AC8B5229284F00020BF91 /* ContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentCell.h; sourceTree = "<group>"; };
+		355AC8B6229284F00020BF91 /* ContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentCell.m; sourceTree = "<group>"; };
 		35A5482C222CB0E20017AA7B /* DemoPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A5482F222CB0E30017AA7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35A54830222CB0E30017AA7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -366,6 +385,40 @@
 				351492A222315D4C00D32546 /* WineModel.m */,
 			);
 			path = TableView;
+			sourceTree = "<group>";
+		};
+		355AC8A222927EEE0020BF91 /* DifCell */ = {
+			isa = PBXGroup;
+			children = (
+				355AC8A322927EEE0020BF91 /* DifCell.h */,
+				355AC8A422927EEE0020BF91 /* DifCell.m */,
+				355AC8A522927EEE0020BF91 /* DiffCell */,
+			);
+			path = DifCell;
+			sourceTree = "<group>";
+		};
+		355AC8A522927EEE0020BF91 /* DiffCell */ = {
+			isa = PBXGroup;
+			children = (
+				355AC8A622927EEE0020BF91 /* NormalImageCell.h */,
+				355AC8A722927EEE0020BF91 /* BottomImageCell.h */,
+				355AC8A822927EEE0020BF91 /* BottomImageCell.xib */,
+				355AC8A922927EEE0020BF91 /* BottomImageCell.m */,
+				355AC8AA22927EEE0020BF91 /* NormalImageCell.m */,
+				355AC8AB22927EEE0020BF91 /* NormalImageCell.xib */,
+			);
+			path = DiffCell;
+			sourceTree = "<group>";
+		};
+		355AC8B122927F0D0020BF91 /* AutoHeight */ = {
+			isa = PBXGroup;
+			children = (
+				355AC8B222927F200020BF91 /* AutoHeight.h */,
+				355AC8B322927F200020BF91 /* AutoHeight.m */,
+				355AC8B5229284F00020BF91 /* ContentCell.h */,
+				355AC8B6229284F00020BF91 /* ContentCell.m */,
+			);
+			path = AutoHeight;
 			sourceTree = "<group>";
 		};
 		35A54823222CB0E20017AA7B = {
@@ -772,6 +825,8 @@
 		35E9C6F82241E519006C7649 /* SmallPiece */ = {
 			isa = PBXGroup;
 			children = (
+				355AC8B122927F0D0020BF91 /* AutoHeight */,
+				355AC8A222927EEE0020BF91 /* DifCell */,
 				3540CB50224CA8CA005730C0 /* Sort */,
 				35E9C6FF2241E567006C7649 /* SmallPieceController.h */,
 				35E9C7002241E567006C7649 /* SmallPieceController.m */,
@@ -888,10 +943,12 @@
 				35A548DE2231F39E0017AA7B /* podfile in Resources */,
 				35A5483C222CB0E40017AA7B /* LaunchScreen.storyboard in Resources */,
 				351492A0223150AA00D32546 /* CartCell.xib in Resources */,
+				355AC8B022927EEE0020BF91 /* NormalImageCell.xib in Resources */,
 				35A5488E222E5A4D0017AA7B /* person.plist in Resources */,
 				35A54911223602720017AA7B /* Rotation.storyboard in Resources */,
 				35E9C6F12240BB10006C7649 /* RAC_LoginController.storyboard in Resources */,
 				35E9C69E223A029B006C7649 /* CollectionImageCell.xib in Resources */,
+				355AC8AD22927EEE0020BF91 /* BottomImageCell.xib in Resources */,
 				35A54839222CB0E40017AA7B /* Assets.xcassets in Resources */,
 				35A54913223608F90017AA7B /* WheelView.xib in Resources */,
 				35A54837222CB0E30017AA7B /* Main.storyboard in Resources */,
@@ -977,18 +1034,22 @@
 				35E9C6E4223F842C006C7649 /* UITextField+customer.m in Sources */,
 				35A54882222D0B130017AA7B /* MainPage+OtherFunction.m in Sources */,
 				35E9C6EF2240BB06006C7649 /* RAC_LoginController.m in Sources */,
+				355AC8AC22927EEE0020BF91 /* DifCell.m in Sources */,
 				35A548B1222F787A0017AA7B /* UIBasic.m in Sources */,
 				35E9C60822378F8D006C7649 /* XZ_SaveTool.m in Sources */,
 				3540CB56224CABDF005730C0 /* NSString+customer.m in Sources */,
 				35A54863222CB18F0017AA7B /* MainPage.m in Sources */,
 				35E9C6A1223A34CA006C7649 /* EWWaterFallLayout.m in Sources */,
+				355AC8B7229284F00020BF91 /* ContentCell.m in Sources */,
 				35E9C6B6223B3CFE006C7649 /* RuntimePerson+Play.m in Sources */,
 				35A549082234FC1F0017AA7B /* BgView.m in Sources */,
 				35A548A4222F63E00017AA7B /* TransDict.m in Sources */,
+				355AC8AE22927EEE0020BF91 /* BottomImageCell.m in Sources */,
 				35A548DC223113FF0017AA7B /* RedView.m in Sources */,
 				35E9C60522378E2E006C7649 /* XZ_RootTool.m in Sources */,
 				35E9C6AD223B337B006C7649 /* RunTimeController.m in Sources */,
 				35A548EC2232585F0017AA7B /* XZDrawController.m in Sources */,
+				355AC8B422927F200020BF91 /* AutoHeight.m in Sources */,
 				35A548CB2230DB050017AA7B /* KutilManager.m in Sources */,
 				35E9C6BA223B766E006C7649 /* RequestController.m in Sources */,
 				35A548EF223262BC0017AA7B /* QuartzView.m in Sources */,
@@ -1006,6 +1067,7 @@
 				35E9C6102237B25C006C7649 /* GCD_Controller.m in Sources */,
 				35E9C6D8223F6CAF006C7649 /* RACController.m in Sources */,
 				35E9C6E1223F7697006C7649 /* UIButton+customer.m in Sources */,
+				355AC8AF22927EEE0020BF91 /* NormalImageCell.m in Sources */,
 				351492A322315D4C00D32546 /* WineModel.m in Sources */,
 				35A548BE2230B8E10017AA7B /* SandBox.m in Sources */,
 				35A54919223659BF0017AA7B /* CustomButton.m in Sources */,
